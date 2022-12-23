@@ -1,0 +1,600 @@
+﻿<Window x:Class="SchoolNavigator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolNavigator"
+        mc:Ignorable="d"
+        Title="紫金学院校园导航"
+        Height="930"
+        Width="1800"
+        MinHeight="620"
+        MinWidth="1200"
+        Closing="MainWindow_OnClosing"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="PingFang SC, Microsoft YaHei UI">
+
+    <Window.Resources>
+
+        <!-- 定义 Location 组件的颜色刷子 -->
+        <SolidColorBrush x:Key="Location.Default.Side"
+                         Color="#FFFF1B10" />
+        <SolidColorBrush x:Key="Location.Default.Main"
+                         Color="#FFFF451B" />
+        <SolidColorBrush x:Key="Location.Default.Edge"
+                         Color="#FFD6FAFF" />
+        <SolidColorBrush x:Key="Location.Default.White"
+                         Color="#FFFFFFFF" />
+        <SolidColorBrush x:Key="Location.Default.Black"
+                         Color="#000000" />
+        <SolidColorBrush x:Key="Location.MouseOver.Side"
+                         Color="#ffff6d4c" />
+        <SolidColorBrush x:Key="Location.MouseOver.Main"
+                         Color="#ffff8266" />
+        <SolidColorBrush x:Key="Location.Clicked.Side"
+                         Color="#ffe50b00" />
+        <SolidColorBrush x:Key="Location.Clicked.Main"
+                         Color="#ffcc2500" />
+
+        <!-- 定义 Location 组件的样式，用于标记地点 -->
+        <!-- https://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=17966 -->
+        <Style x:Key="Location"
+               TargetType="{x:Type Button}">
+            <Setter Property="OverridesDefaultStyle"
+                    Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Canvas Width="1024"
+                                Height="1024"
+                                RenderTransformOrigin="-0.026,-0.052">
+                            <Canvas.RenderTransform>
+                                <ScaleTransform ScaleX="0.05"
+                                                ScaleY="0.05" />
+                            </Canvas.RenderTransform>
+                            <!--Unknown tag: sodipodi:namedview-->
+                            <Path x:Name="Path1"
+                                  Fill="{StaticResource Location.Default.Side}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M515.879997 15.019988L512 1008.999192l295.299764-428.079657C848.059731 522.559582 871.999712 451.579638 871.999712 374.9997 871.999712 177.479858 712.919839 17.099986 515.879997 15.019988z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path x:Name="Path2"
+                                  Fill="{StaticResource Location.Default.Main}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M811.99976 374.9997c0 76.579939-19.939984 147.559882-53.919957 205.919835L512 1008.999192 216.700236 580.919535C175.940269 522.559582 152.000288 451.579638 152.000288 374.9997c0-198.819841 161.179871-359.999712 359.999712-359.999712 1.299999 0 2.579998 0 3.879997 0.02C679.779866 17.519986 811.99976 177.739858 811.99976 374.9997z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="{StaticResource Location.Default.Edge}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M512 74.99994v599.999519c165.685867 0 299.99976-134.313892 299.99976-299.999759s-134.313892-299.99976-299.99976-299.99976z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="{StaticResource Location.Default.White}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M751.999808 374.9997c0-165.685867-107.451914-299.99976-239.999808-299.99976-165.685867 0-299.99976 134.313892-299.99976 299.99976s134.313892 299.99976 299.99976 299.999759c132.547894 0 239.999808-134.313892 239.999808-299.999759z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path x:Name="Path3"
+                                  Fill="{StaticResource Location.Default.Side}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M512 194.999844v359.999712c99.251921 0 179.999856-80.747935 179.999856-179.999856s-80.747935-179.999856-179.999856-179.999856z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path x:Name="Path4"
+                                  Fill="{StaticResource Location.Default.Main}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M631.999904 374.9997c0-99.251921-53.831957-179.999856-119.999904-179.999856-99.251921 0-179.999856 80.747935-179.999856 179.999856s80.747935 179.999856 179.999856 179.999856c66.167947 0 119.999904-80.747935 119.999904-179.999856z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="{StaticResource Location.Default.Black}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M512 0C305.224166 0 137.0003 168.223865 137.0003 374.9997c0 77.213938 23.305981 151.387879 67.345946 214.429828l295.307764 428.087657a14.999988 14.999988 0 0 0 24.69198 0l295.255764-428.013657C863.693718 526.387578 886.9997 452.213638 886.9997 374.9997 886.9997 168.223865 718.775834 0 512 0z m282.959773 572.393542L512 982.583213 228.990227 572.321542C188.436259 514.269588 167.000276 446.037643 167.000276 374.9997 167.000276 184.765852 321.766152 29.999976 512 29.999976s344.999724 154.765876 344.999724 344.999724c0 71.037943-21.435983 139.269888-62.039951 197.393842z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="{StaticResource Location.Default.Black}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M706.999844 374.9997c0-107.523914-87.47593-194.999844-194.999844-194.999844s-194.999844 87.47593-194.999844 194.999844S404.476086 569.999544 512 569.999544s194.999844-87.47593 194.999844-194.999844z m-359.999712 0c0-90.981927 74.017941-164.999868 164.999868-164.999868s164.999868 74.017941 164.999868 164.999868S602.981927 539.999568 512 539.999568s-164.999868-74.017941-164.999868-164.999868z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="{StaticResource Location.Default.Black}">
+                                <Path.Data>
+                                    <PathGeometry Figures="M512 59.999952c-72.513942 0-143.313885 25.25398-199.35184 71.111943a14.999988 14.999988 0 0 0-2.109999 21.107983 14.997988 14.997988 0 0 0 21.107983 2.109998C382.340104 112.84591 446.392053 89.999928 512 89.999928c157.149874 0 284.999772 127.849898 284.999772 284.999772S669.149874 659.999471 512 659.999471s-284.999772-127.849898-284.999772-284.999771c0-65.609947 22.845982-129.661896 64.329949-180.353856a14.999988 14.999988 0 0 0-23.215982-18.999985C222.254232 231.685814 197.000252 302.483758 197.000252 374.9997 197.000252 548.691561 338.308139 689.999447 512 689.999447s314.999748-141.307887 314.999748-314.999747S685.691861 59.999952 512 59.999952z"
+                                                  FillRule="NonZero" />
+                                </Path.Data>
+                            </Path>
+                        </Canvas>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+                                <Setter Property="Fill"
+                                        TargetName="Path1"
+                                        Value="{StaticResource Location.MouseOver.Side}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path3"
+                                        Value="{StaticResource Location.MouseOver.Side}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path2"
+                                        Value="{StaticResource Location.MouseOver.Main}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path4"
+                                        Value="{StaticResource Location.MouseOver.Main}" />
+                            </Trigger>
+
+                            <Trigger Property="IsPressed"
+                                     Value="True">
+                                <Setter Property="Fill"
+                                        TargetName="Path1"
+                                        Value="{StaticResource Location.Clicked.Side}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path3"
+                                        Value="{StaticResource Location.Clicked.Side}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path2"
+                                        Value="{StaticResource Location.Clicked.Main}" />
+                                <Setter Property="Fill"
+                                        TargetName="Path4"
+                                        Value="{StaticResource Location.Clicked.Main}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- 定义 Path 和 Ellipse 的颜色刷子 -->
+        <SolidColorBrush x:Key="SelectedRoute"
+                         Color="OrangeRed" />
+        <SolidColorBrush x:Key="WayPoint.Color"
+                         Color="OrangeRed" />
+
+        <!-- 定义 Path 组件的样式，表示基本路径 -->
+        <Style x:Key="Route"
+               TargetType="{x:Type Path}">
+            <Setter Property="Stroke"
+                    Value="{StaticResource SelectedRoute}" />
+            <Setter Property="Visibility"
+                    Value="Hidden" />
+            <Setter Property="StrokeThickness"
+                    Value="3" />
+        </Style>
+
+        <!-- 定义 Ellipse 的样式，表示无名路径节点的小圆 -->
+        <Style x:Key="WayPoint"
+               TargetType="{x:Type Ellipse}">
+            <Setter Property="Fill"
+                    Value="{StaticResource WayPoint.Color}" />
+            <Setter Property="Visibility"
+                    Value="Hidden" />
+            <!-- 圆的半径会影响到定位，需要在 Python 脚本里设置 -->
+            <!-- <Setter Property="Height" Value="6.0" /> -->
+            <!-- <Setter Property="Width" Value="6.0" /> -->
+        </Style>
+
+        <!-- ~1~ 修改了全局 TextBlock 的样式 @1@ -->
+        <!-- <Style TargetType="TextBlock"> -->
+        <!--     <Setter Property="TextAlignment" Value="Center" /> -->
+        <!--     <Setter Property="FontFamily" Value="PingFang SC, Microsoft YaHei UI" /> -->
+        <!--     <Setter Property="FontSize" Value="20" /> -->
+        <!-- </Style> -->
+        <!-- -->
+        <!-- ~1~ 修改了全局 Button 的样式 @1@ -->
+        <!-- <Style TargetType="Button"> -->
+        <!--     <Setter Property="FontSize" Value="20" /> -->
+        <!--     <Setter Property="FontFamily" Value="PingFang SC, Microsoft YaHei UI" /> -->
+        <!--     <Setter Property="Width" Value="200" /> -->
+        <!--     <Setter Property="Height" Value="50" /> -->
+        <!--     <Setter Property="HorizontalAlignment" Value="Center" /> -->
+        <!-- </Style> -->
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- 导航界面和图片 -->
+        <Viewbox Grid.Column="0"
+                 Stretch="Uniform"
+                 StretchDirection="Both">
+            <Canvas x:Name="MainCanvas"
+                    Width="1200"
+                    Height="900">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="/images/SchoolMap.jpg" />
+                </Canvas.Background>
+
+                <!-- Canvas 中的各个元素在 MainWindow.xaml.cs 中通过C#代码生成 -->
+
+            </Canvas>
+        </Viewbox>
+
+        <StackPanel Grid.Column="1"
+                    Orientation="Vertical">
+
+            <!-- 背景：不透明度为2%的紫金logo -->
+            <StackPanel.Background>
+                <ImageBrush ImageSource="images/Zijin_Logo_Blank.png" />
+            </StackPanel.Background>
+
+            <!-- 标题栏 -->
+            <materialDesign:ColorZone x:Name="TitleBar"
+                                      Mode="PrimaryDark"
+                                      Padding="16"
+                                      Height="90">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="images/Zijin_Logo_White.png"
+                           MouseRightButtonDown="EnterAdminMode_OnMouseRightButtonDown" />
+                    <TextBlock x:Name="Title"
+                               VerticalAlignment="Center"
+                               Margin="16 0 0 0"
+                               Text="紫金学院校园导航系统"
+                               FontSize="40"
+                               MouseRightButtonDown="Title_OnMouseRightButtonDown" />
+                </StackPanel>
+
+            </materialDesign:ColorZone>
+
+
+            <!-- 主功能区 -->
+            <StackPanel Orientation="Vertical"
+                        HorizontalAlignment="Center"
+                        Margin="50 0 50 0">
+
+                <!-- 功能区 -->
+                <StackPanel>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0 30 0 0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <!-- TODO: 如何做到下拉菜单项的搜索和自动补全？ -->
+                            <!-- 选择路径起点 -->
+                            <ComboBox Grid.Row="0"
+                                      x:Name="StartPointComboBox"
+                                      Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                                      IsEditable="True"
+                                      materialDesign:HintAssist.Hint="起点"
+                                      materialDesign:TextFieldAssist.HasClearButton="True"
+                                      Width="260"
+                                      FontSize="18"
+                                      Margin="10"
+                                      HorizontalAlignment="Left"
+                                      TextBoxBase.TextChanged="StartPointComboBox_OnTextChanged"
+                                      IsTextSearchEnabled="True">
+
+                                <ComboBox.SelectedItem>
+                                    <Binding Path="SelectedValidationOutlined"
+                                             Mode="TwoWay"
+                                             UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </ComboBox.SelectedItem>
+                            </ComboBox>
+
+                            <!-- 选择路径终点 -->
+                            <ComboBox Grid.Row="1"
+                                      x:Name="EndPointComboBox"
+                                      Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                                      IsEditable="True"
+                                      materialDesign:HintAssist.Hint="终点"
+                                      materialDesign:TextFieldAssist.HasClearButton="True"
+                                      Width="260"
+                                      FontSize="18"
+                                      Margin="10"
+                                      HorizontalAlignment="Left"
+                                      TextBoxBase.TextChanged="EndPointComboBox_OnTextChanged">
+
+                                <ComboBox.SelectedItem>
+                                    <Binding Path="SelectedValidationOutlined"
+                                             Mode="TwoWay"
+                                             UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </ComboBox.SelectedItem>
+                            </ComboBox>
+
+                            <!-- <ComboBox Grid.Row="1" -->
+                            <!--           x:Name="EndPointComboBox" -->
+                            <!--           Style="{StaticResource MaterialDesignOutlinedComboBox}" -->
+                            <!--           IsEnabled="True" -->
+                            <!--           IsEditable="True" -->
+                            <!--           materialDesign:HintAssist.Hint="终点" -->
+                            <!--           ItemsSource="{Binding ShortList}" -->
+                            <!--           Width="260" -->
+                            <!--           FontSize="18" -->
+                            <!--           Margin="10" -->
+                            <!--           HorizontalAlignment="Left" /> -->
+
+                        </Grid>
+
+                        <!-- 附加选项 -->
+                        <StackPanel Orientation="Vertical">
+
+                            <!-- 是否允许楼内穿行？ -->
+                            <CheckBox Style="{StaticResource MaterialDesignFilterChipAccentOutlineCheckBox}"
+                                      IsChecked="True"
+                                      Content="楼内穿行"
+                                      Margin="10" />
+
+                            <!-- 是否只走大路（行车道）？ -->
+                            <CheckBox Style="{StaticResource MaterialDesignFilterChipAccentOutlineCheckBox}"
+                                      IsChecked="False"
+                                      Content="只走大路"
+                                      Margin="10" />
+
+                            <!-- 是否尽可能多地途径景点？（访客可能需要） -->
+                            <CheckBox Style="{StaticResource MaterialDesignFilterChipAccentOutlineCheckBox}"
+                                      IsChecked="False"
+                                      Content="景点优先"
+                                      Margin="10" />
+
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- 操作按钮 -->
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Left">
+
+                        <!-- 计算路径 -->
+                        <Button x:Name="CalculateRouteButton"
+                                Style="{StaticResource MaterialDesignPaperButton}"
+                                ToolTip="Resource name: MaterialDesignPaperButton"
+                                Width="120"
+                                Content="计算路径"
+                                Click="CalculateRoute_OnClick"
+                                Margin="10"
+                                FontSize="18" Cursor="Help" />
+
+                        <!-- 清除信息（默认不可用） -->
+                        <Button x:Name="EraseInfoButton"
+                                Style="{StaticResource MaterialDesignPaperButton}"
+                                ToolTip="Resource name: MaterialDesignPaperButton"
+                                Width="120"
+                                Content="清除信息"
+                                Click="EraseInfo_OnClick"
+                                Margin="10"
+                                FontSize="18"
+                                IsEnabled="False" />
+
+
+                    </StackPanel>
+
+                    <!-- 描述文本和（图片） -->
+                    <StackPanel Margin="10"
+                                Height="500">
+
+                        <!-- 标签页：介绍、路线 -->
+                        <materialDesign:Card Height="500">
+                            <TabControl x:Name="InfoTab"
+                                        Width="300"
+                                        materialDesign:ColorZoneAssist.Mode="PrimaryDark"
+                                        SelectedIndex="0">
+
+                                <!-- 介绍 页面 -->
+                                <TabItem Header="介绍">
+                                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+                                            <!-- 景点1 -->
+                                            <GroupBox Grid.Row="0"
+                                                      x:Name="IntroduceBox1"
+                                                      Header=""
+                                                      Style="{StaticResource MaterialDesignGroupBox}"
+                                                      Margin="0 20 0 20"
+                                                      materialDesign:ShadowAssist.ShadowDepth="Depth1"
+                                                      BorderThickness="0"
+                                                      Visibility="Collapsed"
+                                                      FontSize="18">
+                                                <TextBlock x:Name="IntroduceBoxText1"
+                                                           Margin="0"
+                                                           TextWrapping="Wrap"
+                                                           Text=""
+                                                           FontSize="14" />
+                                            </GroupBox>
+
+                                            <!-- 景点2 -->
+                                            <GroupBox Grid.Row="1"
+                                                      x:Name="IntroduceBox2"
+                                                      Header=""
+                                                      Style="{StaticResource MaterialDesignGroupBox}"
+                                                      Margin="0 20 0 20"
+                                                      materialDesign:ShadowAssist.ShadowDepth="Depth1"
+                                                      BorderThickness="0"
+                                                      Visibility="Collapsed"
+                                                      FontSize="18">
+                                                <TextBlock x:Name="IntroduceBoxText2"
+                                                           Margin="0"
+                                                           TextWrapping="Wrap"
+                                                           Text=""
+                                                           FontSize="14" />
+                                            </GroupBox>
+
+                                            <!-- 默认提示文本（没有选中任何景点时） -->
+                                            <TextBlock Grid.Row="0"
+                                                       x:Name="IntroduceBoxEmptyText"
+                                                       Text="小紫不知道哦。"
+                                                       Margin="0 10 0 10"
+                                                       Visibility="Visible" />
+                                        </Grid>
+                                    </ScrollViewer>
+                                </TabItem>
+
+                                <!-- 路线 页面 -->
+                                <TabItem Header="路线">
+                                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+                                            <!-- 距离信息（多少米？） -->
+                                            <materialDesign:Card Grid.Row="0"
+                                                                 x:Name="RouteDistance"
+                                                                 Background="{DynamicResource PrimaryHueMidBrush}"
+                                                                 Foreground="{DynamicResource PrimaryHueMidForegroundBrush}"
+                                                                 Width="300"
+                                                                 Padding="8"
+                                                                 UniformCornerRadius="4"
+                                                                 Margin="0 20 0 20"
+                                                                 Visibility="Visible">
+                                                <TextBlock x:Name="RouteDistanceText"
+                                                           TextWrapping="Wrap"
+                                                           FontSize="28" />
+                                            </materialDesign:Card>
+
+
+                                            <!-- 途径节点信息 -->
+                                            <materialDesign:Card Grid.Row="1"
+                                                                 Visibility="Collapsed">
+                                                <StackPanel>
+
+                                                    <Expander HorizontalAlignment="Stretch"
+                                                              Header="图书馆 100m">
+                                                        <StackPanel Orientation="Vertical"
+                                                                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                                                    Margin="24,8,24,16">
+                                                            <TextBlock Text="Your Content"
+                                                                       FontWeight="Bold" />
+                                                            <TextBlock Style="{StaticResource MaterialDesignTextBlock}"
+                                                                       TextWrapping="Wrap"
+                                                                       Text="203423042385239047023sdlfagiafasjfioasjipgofsfsadpfjsda" />
+                                                        </StackPanel>
+                                                    </Expander>
+
+                                                    <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
+
+                                                    <Expander HorizontalAlignment="Stretch"
+                                                              Header="大操场 421m">
+                                                        <StackPanel Orientation="Vertical"
+                                                                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                                                    Margin="24,8,24,16">
+                                                            <TextBlock Text="Your Content" />
+                                                            <TextBlock Style="{StaticResource MaterialDesignTextBlock}"
+                                                                       Text="203423042385239047023sdlfagiafasjfioasjipgofsfsadpfjsda203423042385239047023sdlfagiafasjfioasjipgofsfsadpfjsda"
+                                                                       TextWrapping="Wrap" />
+                                                        </StackPanel>
+                                                    </Expander>
+
+                                                    <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
+
+                                                    <Expander HorizontalAlignment="Stretch"
+                                                              Header="Expander Example 2c">
+                                                        <StackPanel Orientation="Vertical"
+                                                                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                                                    Margin="24,8,24,16">
+                                                            <TextBlock Text="Your Content" />
+                                                            <TextBlock Style="{StaticResource MaterialDesignTextBlock}"
+                                                                       TextWrapping="Wrap"
+                                                                       Text="203423042385239047023sdlfagiafasjfioasjipgofsfsadpfjsda203423042385239047023sdlfagiafasjfioasjipgofsfsadpfjsda" />
+                                                        </StackPanel>
+                                                    </Expander>
+
+                                                </StackPanel>
+
+                                            </materialDesign:Card>
+
+
+                                            <!-- <ItemsControl Grid.Row="1" -->
+                                            <!--               x:Name="RouteWayPointList" -->
+                                            <!--               Grid.IsSharedSizeScope="True" -->
+                                            <!--               ItemsSource="{Binding }" -->
+                                            <!--               Visibility="Visible"> -->
+                                            <!--     <ItemsControl.Resources> -->
+                                            <!--         <local:WayPoint x:Key="WayPoints" /> -->
+                                            <!--     </ItemsControl.Resources> -->
+                                            <!-- -->
+                                            <!--     <ItemsControl.ItemTemplate> -->
+                                            <!-- -->
+                                            <!-- -->
+                                            <!--         ~1~ TODO: 这里需要补充 DataType 的 x: 绑定值 @1@ -->
+                                            <!--         <DataTemplate DataType="{x:Type }:"> -->
+                                            <!--             ~1~ <DataTemplate> @1@ -->
+                                            <!--             <Border x:Name="Border" -->
+                                            <!--                     Padding="8" -->
+                                            <!--                     BorderThickness="0 0 0 1" -->
+                                            <!--                     BorderBrush="{DynamicResource MaterialDesignDivider}"> -->
+                                            <!--                 <Grid> -->
+                                            <!--                     <Grid.ColumnDefinitions> -->
+                                            <!--                         <ColumnDefinition SharedSizeGroup="Checkerz" /> -->
+                                            <!--                         <ColumnDefinition /> -->
+                                            <!--                     </Grid.ColumnDefinitions> -->
+                                            <!--                     <ToggleButton VerticalAlignment="Center" -->
+                                            <!--                                   Style="{StaticResource MaterialDesignActionLightToggleButton}" -->
+                                            <!--                                   Content="↓" -->
+                                            <!--                                   Click="ButtonBase_OnClick" /> -->
+                                            <!--                     <StackPanel Margin="8 0 0 0" -->
+                                            <!--                                 Grid.Column="1"> -->
+                                            <!--                         <TextBlock Text="{Binding Name}" -->
+                                            <!--                                    FontWeight="Bold" /> -->
+                                            <!--                         <TextBlock Text="{Binding Description}" /> -->
+                                            <!--                     </StackPanel> -->
+                                            <!--                 </Grid> -->
+                                            <!--             </Border> -->
+                                            <!-- -->
+                                            <!--             ~1~ 这段可以不要，后面手动实现 @1@ -->
+                                            <!--             <DataTemplate.Triggers> -->
+                                            <!--                 <DataTrigger Binding="{Binding IsSelected}" -->
+                                            <!--                              Value="True"> -->
+                                            <!--                     <Setter TargetName="Border" -->
+                                            <!--                             Property="Background" -->
+                                            <!--                             Value="{DynamicResource MaterialDesignSelection}" /> -->
+                                            <!--                 </DataTrigger> -->
+                                            <!--             </DataTemplate.Triggers> -->
+                                            <!-- -->
+                                            <!--         </DataTemplate> -->
+                                            <!--     </ItemsControl.ItemTemplate> -->
+                                            <!-- </ItemsControl> -->
+
+                                            <!-- 默认提示文本（没有计算路径时） -->
+                                            <TextBlock Grid.Row="0"
+                                                       x:Name="DistanceResultEmptyText"
+                                                       Text="啊这，她说她不知道。"
+                                                       Margin="0 10 0 10"
+                                                       Visibility="Hidden" />
+
+                                        </Grid>
+
+                                    </ScrollViewer>
+                                </TabItem>
+
+                            </TabControl>
+                        </materialDesign:Card>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

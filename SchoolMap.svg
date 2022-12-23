@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: blue;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <image width="2829" height="2122" transform="scale(.42)" xlink:href="SchoolNavigator/images/SchoolMap.jpg"/>
+  </g>
+  <g id="Path">
+    <line class="cls-2" x1="424.5" y1="183.5" x2="431" y2="158"/>
+    <line class="cls-2" x1="424.5" y1="183.5" x2="465" y2="192"/>
+    <line class="cls-2" x1="499" y1="107" x2="489" y2="140"/>
+    <line class="cls-2" x1="465" y1="192" x2="528" y2="214"/>
+    <line class="cls-2" x1="560" y1="122" x2="499" y2="107"/>
+    <polyline class="cls-2" points="556 92 562.5 108.5 560 122"/>
+    <polyline class="cls-2" points="532 55 541.5 65.5 556 92"/>
+    <polyline class="cls-2" points="556 92 622.5 57.5 634 50"/>
+    <polyline class="cls-2" points="528 214 562.5 225.38 577 232"/>
+    <line class="cls-2" x1="577" y1="232" x2="591" y2="252"/>
+    <line class="cls-2" x1="614" y1="293" x2="591" y2="252"/>
+    <line class="cls-2" x1="633" y1="328" x2="614" y2="293"/>
+    <line class="cls-2" x1="664" y1="388" x2="633" y2="328"/>
+    <polyline class="cls-2" points="545 459 637.5 408.5 664 388"/>
+    <line class="cls-2" x1="708" y1="471" x2="664" y2="388"/>
+    <line class="cls-2" x1="567" y1="501" x2="545" y2="459"/>
+    <line class="cls-2" x1="587" y1="537" x2="567" y2="501"/>
+    <line class="cls-2" x1="708" y1="471" x2="587" y2="537"/>
+    <line class="cls-2" x1="593" y1="550" x2="587" y2="537"/>
+    <line class="cls-2" x1="708" y1="471" x2="760" y2="563"/>
+    <polyline class="cls-2" points="676 701 742.23 665 761 646 769 628 772 603 769 584.72 760 563"/>
+    <polyline class="cls-2" points="387 221 394.5 201.5 401.5 193.5 407.85 187.75 416.5 184.5 424.5 183.5"/>
+    <line class="cls-2" x1="376" y1="262" x2="387" y2="221"/>
+    <line class="cls-2" x1="364" y1="303" x2="376" y2="262"/>
+    <line class="cls-2" x1="348" y1="353" x2="364" y2="303"/>
+    <line class="cls-2" x1="321" y1="440" x2="348" y2="353"/>
+    <line class="cls-2" x1="437" y1="480" x2="321" y2="440"/>
+    <polyline class="cls-2" points="470 499 465 489.31 437 480"/>
+    <line class="cls-2" x1="442" y1="514" x2="470" y2="499"/>
+    <line class="cls-2" x1="545" y1="459" x2="470" y2="499"/>
+    <polyline class="cls-2" points="442 514 436.5 503.5 429.94 477.57 437 480"/>
+    <line class="cls-2" x1="426" y1="613" x2="481" y2="577"/>
+    <polyline class="cls-2" points="465 559 450.03 542 442 514"/>
+    <line class="cls-2" x1="481" y1="577" x2="465" y2="559"/>
+    <line class="cls-2" x1="456" y1="662" x2="514" y2="628"/>
+    <line class="cls-2" x1="426" y1="613" x2="456" y2="662"/>
+    <line class="cls-2" x1="415" y1="619" x2="426" y2="613"/>
+    <line class="cls-2" x1="359" y1="608" x2="415" y2="619"/>
+    <line class="cls-2" x1="370" y1="646" x2="359" y2="608"/>
+    <line class="cls-2" x1="415" y1="619" x2="370" y2="646"/>
+    <line class="cls-2" x1="268" y1="703" x2="370" y2="646"/>
+    <line class="cls-2" x1="255" y1="669" x2="268" y2="703"/>
+    <line class="cls-2" x1="396" y1="697" x2="370" y2="646"/>
+    <line class="cls-2" x1="294" y1="753" x2="268" y2="703"/>
+    <line class="cls-2" x1="396" y1="697" x2="294" y2="753"/>
+    <line class="cls-2" x1="326" y1="806" x2="294" y2="753"/>
+    <line class="cls-2" x1="428" y1="743" x2="326" y2="806"/>
+    <line class="cls-2" x1="396" y1="697" x2="428" y2="743"/>
+    <line class="cls-2" x1="482" y1="811" x2="428" y2="743"/>
+    <polyline class="cls-2" points="326 806 331.5 818.5 345 832.96 367 847.32 391.5 853.5 401.88 853.5 419.5 850.5 446.5 836.5 482 811"/>
+    <line class="cls-2" x1="529" y1="781" x2="482" y2="811"/>
+    <line class="cls-2" x1="499" y1="733" x2="456" y2="662"/>
+    <line class="cls-2" x1="529" y1="781" x2="499" y2="733"/>
+    <polyline class="cls-2" points="551 708 532 713.48 499 733"/>
+    <line class="cls-2" x1="529" y1="781" x2="565" y2="761"/>
+    <polyline class="cls-2" points="565 761 560.9 733 551 708"/>
+    <line class="cls-2" x1="597" y1="744" x2="565" y2="761"/>
+    <line class="cls-2" x1="676" y1="701" x2="597" y2="744"/>
+    <line class="cls-2" x1="540" y1="811" x2="529" y2="781"/>
+    <line class="cls-2" x1="623" y1="607" x2="593" y2="550"/>
+    <line class="cls-2" x1="651" y1="658" x2="623" y2="607"/>
+    <line class="cls-2" x1="676" y1="701" x2="651" y2="658"/>
+    <line class="cls-2" x1="551" y1="708" x2="651" y2="658"/>
+    <line class="cls-2" x1="465" y1="559" x2="567" y2="501"/>
+    <polyline class="cls-2" points="255 669 259.87 659 281 581"/>
+    <polyline class="cls-2" points="359 608 348 599.96 293 591 281 581"/>
+    <line class="cls-2" x1="293" y1="539" x2="281" y2="581"/>
+    <polyline class="cls-2" points="271 515 274.89 521 293 539"/>
+    <line class="cls-2" x1="299" y1="521" x2="293" y2="539"/>
+    <line class="cls-2" x1="321" y1="440" x2="299" y2="521"/>
+    <line class="cls-2" x1="481" y1="577" x2="499" y2="599"/>
+    <line class="cls-2" x1="514" y1="628" x2="499" y2="599"/>
+    <line class="cls-2" x1="593" y1="550" x2="499" y2="599"/>
+    <line class="cls-2" x1="514" y1="628" x2="530" y2="655"/>
+    <line class="cls-2" x1="623" y1="607" x2="530" y2="655"/>
+    <polyline class="cls-2" points="551 708 534.5 662.5 530 655"/>
+    <line class="cls-2" x1="461" y1="436" x2="437" y2="480"/>
+    <line class="cls-2" x1="494" y1="378" x2="461" y2="436"/>
+    <polyline class="cls-2" points="556 92 526.5 107.5 514.5 110.5 499 107"/>
+    <polyline class="cls-2" points="489 140 480.5 171.5 465 192"/>
+    <polyline class="cls-2" points="560 122 551.5 144.5 545 155"/>
+    <polyline class="cls-2" points="489 140 518.5 150.5 535.5 155.5 545 155"/>
+    <polyline class="cls-2" points="528 214 538.96 170.75 545 155"/>
+    <line class="cls-2" x1="663" y1="91" x2="634" y2="50"/>
+    <polyline class="cls-2" points="778 324 696.5 371.5 664 388"/>
+    <polyline class="cls-2" points="738 230 757.5 277.5 761 287"/>
+    <line class="cls-2" x1="663" y1="91" x2="738" y2="230"/>
+    <polyline class="cls-2" points="433 23 523.5 50.5 532 55"/>
+    <line class="cls-2" x1="614" y1="293" x2="738" y2="230"/>
+    <line class="cls-2" x1="778" y1="324" x2="761" y2="287"/>
+    <polyline class="cls-2" points="754 311 764.41 331.92 695.91 371.8 664 388"/>
+    <line class="cls-2" x1="791" y1="318" x2="778" y2="324"/>
+    <line class="cls-2" x1="633" y1="328" x2="674" y2="310"/>
+    <line class="cls-2" x1="489" y1="140" x2="436" y2="128"/>
+    <line class="cls-2" x1="431" y1="158" x2="436" y2="128"/>
+    <line class="cls-2" x1="433" y1="23" x2="421.5" y2="55.5"/>
+    <polyline class="cls-2" points="532 55 560.5 45.5 552.5 23.5 567 21"/>
+    <polyline class="cls-2" points="664 388 638.43 407.78 624.7 415.49 643.5 452.5 628 460"/>
+    <line class="cls-2" x1="567" y1="501" x2="628" y2="460"/>
+    <polyline class="cls-2" points="547 540 534.4 519.54 567 501"/>
+    <polyline class="cls-2" points="587 537 577.56 520 547 540"/>
+    <line class="cls-2" x1="481" y1="577" x2="547" y2="540"/>
+    <polyline class="cls-2" points="593 550 514 591.18 530 619"/>
+    <line class="cls-2" x1="514" y1="628" x2="530" y2="619"/>
+    <polyline class="cls-2" points="623 607 606.85 576.32 530 619"/>
+    <line class="cls-2" x1="685" y1="583" x2="623" y2="607"/>
+    <polyline class="cls-2" points="651 658 611.37 677.81 604 661"/>
+    <polyline class="cls-2" points="551 708 610.97 678.01 604 661"/>
+    <polyline class="cls-2" points="530 655 536.37 651.71 544.5 670.5 595.5 643.5 604 661"/>
+    <polyline class="cls-2" points="457 735 490.03 718.19 499 733"/>
+    <polyline class="cls-2" points="428 743 433 749.3 457 735"/>
+    <polyline class="cls-2" points="456 662 489.5 717.32 457 735"/>
+    <polyline class="cls-2" points="326 806 358.99 785.62 372.5 816.5 404 800"/>
+    <polyline class="cls-2" points="428 743 414 751.64 426.5 786.5 404 800"/>
+    <polyline class="cls-2" points="326 806 351.39 790.32 342.5 766.5 371 750"/>
+    <polyline class="cls-2" points="428 743 394.7 763.57 387.5 740.5 371 750"/>
+    <polyline class="cls-2" points="338 698 360.5 687.5 345.51 659.69 370 646"/>
+    <polyline class="cls-2" points="268 703 296.5 687.07 310.5 716.5 338 698"/>
+    <polyline class="cls-2" points="370 646 350.32 657 341.5 638.5 325 644"/>
+    <polyline class="cls-2" points="268 703 312.02 678.4 302.17 657 325 644"/>
+    <line class="cls-2" x1="255" y1="669" x2="232" y2="679"/>
+    <line class="cls-2" x1="281" y1="581" x2="248" y2="577"/>
+    <polyline class="cls-2" points="271 515 250.26 477.57 214.5 498.5 226 523"/>
+    <line class="cls-2" x1="299" y1="521" x2="393" y2="545"/>
+    <polyline class="cls-2" points="437 480 422.5 474.5 393 545"/>
+    <polyline class="cls-2" points="465 559 434 557.33 393 545"/>
+    <polyline class="cls-2" points="426 613 412 581 393 545"/>
+    <polyline class="cls-2" points="618 774 606.5 760.5 597 744"/>
+    <polyline class="cls-2" points="540 811 573.5 794.5 569.44 785.62 569.59 782 571.5 779.5 606.65 760.68 618 774"/>
+    <line class="cls-2" x1="557" y1="857" x2="540" y2="811"/>
+    <polyline class="cls-2" points="760 563 805.54 537 788.5 502.5 772 529"/>
+    <polyline class="cls-2" points="754 311 745.73 295.4 761 287"/>
+    <polyline class="cls-2" points="674 310 664 314.39 686.47 355.38 696.19 371.64 664 388"/>
+    <polyline class="cls-2" points="633 328 663.63 314.55 675.06 334.57 746.11 295.19 754 311"/>
+    <polyline class="cls-2" points="376 262 400.5 268.5 393 292"/>
+    <polyline class="cls-2" points="364 303 386.5 310.5 393 292"/>
+    <line class="cls-2" x1="393" y1="292" x2="443" y2="307"/>
+    <line class="cls-2" x1="496" y1="323" x2="443" y2="307"/>
+    <line class="cls-2" x1="528" y1="214" x2="496" y2="323"/>
+    <line class="cls-2" x1="494" y1="378" x2="496" y2="323"/>
+  </g>
+  <g id="Vertice">
+    <circle id="_0" data-name="0" class="cls-3" cx="424.5" cy="183.5" r="3"/>
+    <circle id="_0-2" data-name="0" class="cls-3" cx="431" cy="158" r="3"/>
+    <circle id="_0-3" data-name="0" class="cls-3" cx="465" cy="192" r="3"/>
+    <circle id="_0-4" data-name="0" class="cls-3" cx="489" cy="140" r="3"/>
+    <circle id="_0-5" data-name="0" class="cls-3" cx="499" cy="107" r="3"/>
+    <circle id="_0-6" data-name="0" class="cls-3" cx="532" cy="55" r="3"/>
+    <circle id="_0-7" data-name="0" class="cls-3" cx="433" cy="23" r="3"/>
+    <circle id="_0-8" data-name="0" class="cls-3" cx="556" cy="92" r="3"/>
+    <circle id="_0-9" data-name="0" class="cls-3" cx="634" cy="50" r="3"/>
+    <circle id="_0-10" data-name="0" class="cls-3" cx="663" cy="91" r="3"/>
+    <circle id="_0-11" data-name="0" class="cls-3" cx="545" cy="155" r="3"/>
+    <circle id="_0-12" data-name="0" class="cls-3" cx="560" cy="122" r="3"/>
+    <circle id="_0-13" data-name="0" class="cls-3" cx="528" cy="214" r="3"/>
+    <circle id="_0-14" data-name="0" class="cls-3" cx="577" cy="232" r="3"/>
+    <circle id="_0-15" data-name="0" class="cls-3" cx="437" cy="480" r="3"/>
+    <circle id="_0-16" data-name="0" class="cls-3" cx="461" cy="436" r="3"/>
+    <circle id="_0-17" data-name="0" class="cls-3" cx="494" cy="378" r="3"/>
+    <circle id="_0-18" data-name="0" class="cls-3" cx="496" cy="323" r="3"/>
+    <circle id="_0-19" data-name="0" class="cls-3" cx="393" cy="292" r="3"/>
+    <circle id="_0-20" data-name="0" class="cls-3" cx="442" cy="514" r="3"/>
+    <circle id="_0-21" data-name="0" class="cls-3" cx="470" cy="499" r="3"/>
+    <circle id="_0-22" data-name="0" class="cls-3" cx="545" cy="459" r="3"/>
+    <circle id="_0-23" data-name="0" class="cls-3" cx="664" cy="388" r="3"/>
+    <circle id="_0-24" data-name="0" class="cls-3" cx="708" cy="471" r="3"/>
+    <circle id="_0-25" data-name="0" class="cls-3" cx="760" cy="563" r="3"/>
+    <circle id="_0-26" data-name="0" class="cls-3" cx="778" cy="324" r="3"/>
+    <circle id="_0-27" data-name="0" class="cls-3" cx="591" cy="252" r="3"/>
+    <circle id="_0-28" data-name="0" class="cls-3" cx="738" cy="230" r="3"/>
+    <circle id="_0-29" data-name="0" class="cls-3" cx="614" cy="293" r="3"/>
+    <circle id="_0-30" data-name="0" class="cls-3" cx="633" cy="328" r="3"/>
+    <circle id="_0-31" data-name="0" class="cls-3" cx="761" cy="287" r="3"/>
+    <circle id="_0-32" data-name="0" class="cls-3" cx="567" cy="501" r="3"/>
+    <circle id="_0-33" data-name="0" class="cls-3" cx="587" cy="537" r="3"/>
+    <circle id="_0-34" data-name="0" class="cls-3" cx="676" cy="701" r="3"/>
+    <circle id="_0-35" data-name="0" class="cls-3" cx="593" cy="550" r="3"/>
+    <circle id="_0-36" data-name="0" class="cls-3" cx="651" cy="658" r="3"/>
+    <circle id="_0-37" data-name="0" class="cls-3" cx="623" cy="607" r="3"/>
+    <circle id="_0-38" data-name="0" class="cls-3" cx="321" cy="440" r="3"/>
+    <circle id="_0-39" data-name="0" class="cls-3" cx="293" cy="539" r="3"/>
+    <circle id="_0-40" data-name="0" class="cls-3" cx="255" cy="669" r="3"/>
+    <circle id="_0-41" data-name="0" class="cls-3" cx="268" cy="703" r="3"/>
+    <circle id="_0-42" data-name="0" class="cls-3" cx="294" cy="753" r="3"/>
+    <circle id="_0-43" data-name="0" class="cls-3" cx="326" cy="806" r="3"/>
+    <circle id="_0-44" data-name="0" class="cls-3" cx="428" cy="743" r="3"/>
+    <circle id="_0-45" data-name="0" class="cls-3" cx="482" cy="811" r="3"/>
+    <circle id="_0-46" data-name="0" class="cls-3" cx="529" cy="781" r="3"/>
+    <circle id="_0-47" data-name="0" class="cls-3" cx="540" cy="811" r="3"/>
+    <circle id="_0-48" data-name="0" class="cls-3" cx="499" cy="733" r="3"/>
+    <circle id="_0-49" data-name="0" class="cls-3" cx="551" cy="708" r="3"/>
+    <circle id="_0-50" data-name="0" class="cls-3" cx="565" cy="761" r="3"/>
+    <circle id="_0-51" data-name="0" class="cls-3" cx="456" cy="662" r="3"/>
+    <circle id="_0-52" data-name="0" class="cls-3" cx="514" cy="628" r="3"/>
+    <circle id="_0-53" data-name="0" class="cls-3" cx="530" cy="655" r="3"/>
+    <circle id="_0-54" data-name="0" class="cls-3" cx="597" cy="744" r="3"/>
+    <circle id="_0-55" data-name="0" class="cls-3" cx="370" cy="646" r="3"/>
+    <circle id="_0-56" data-name="0" class="cls-3" cx="396" cy="697" r="3"/>
+    <circle id="_0-57" data-name="0" class="cls-3" cx="359" cy="608" r="3"/>
+    <circle id="_0-58" data-name="0" class="cls-3" cx="415" cy="619" r="3"/>
+    <circle id="_0-59" data-name="0" class="cls-3" cx="426" cy="613" r="3"/>
+    <circle id="_0-60" data-name="0" class="cls-3" cx="481" cy="577" r="3"/>
+    <circle id="_0-61" data-name="0" class="cls-3" cx="499" cy="599" r="3"/>
+    <circle id="_0-62" data-name="0" class="cls-3" cx="465" cy="559" r="3"/>
+    <circle id="_0-63" data-name="0" class="cls-3" cx="281" cy="581" r="3"/>
+    <circle id="_0-64" data-name="0" class="cls-3" cx="299" cy="521" r="3"/>
+    <circle id="_0-65" data-name="0" class="cls-3" cx="271" cy="515" r="3"/>
+    <circle id="_0-66" data-name="0" class="cls-3" cx="348" cy="353" r="3"/>
+    <circle id="_0-67" data-name="0" class="cls-3" cx="364" cy="303" r="3"/>
+    <circle id="_0-68" data-name="0" class="cls-3" cx="376" cy="262" r="3"/>
+    <circle id="_0-69" data-name="0" class="cls-3" cx="387" cy="221" r="3"/>
+  </g>
+  <g id="Location">
+    <circle id="_宿舍楼3幢" data-name="宿舍楼3幢" class="cls-1" cx="421.5" cy="55.5" r="8"/>
+    <circle id="_宿舍楼B11" data-name="宿舍楼B11" class="cls-1" cx="567" cy="21" r="8"/>
+    <circle id="_菜鸟驿站" data-name="菜鸟驿站" class="cls-1" cx="754" cy="311" r="8"/>
+    <circle id="_东门" data-name="东门" class="cls-1" cx="791" cy="318" r="8"/>
+    <circle id="_体育馆" data-name="体育馆" class="cls-1" cx="628" cy="460" r="8"/>
+    <circle id="_旧操场" data-name="旧操场" class="cls-1" cx="685" cy="583" r="8"/>
+    <circle id="_宿舍楼A1" data-name="宿舍楼A1" class="cls-1" cx="772" cy="529" r="8"/>
+    <circle id="_教学楼C" data-name="教学楼C" class="cls-1" cx="547" cy="540" r="8"/>
+    <circle id="_图书馆" data-name="图书馆" class="cls-1" cx="393" cy="545" r="8"/>
+    <circle id="_第二行政楼" data-name="第二行政楼" class="cls-1" cx="248" cy="577" r="8"/>
+    <circle id="_宿舍楼D1" data-name="宿舍楼D1" class="cls-1" cx="226" cy="523" r="8"/>
+    <circle id="_实验楼A" data-name="实验楼A" class="cls-1" cx="325" cy="644" r="8"/>
+    <circle id="_实验楼B" data-name="实验楼B" class="cls-1" cx="338" cy="698" r="8"/>
+    <circle id="_实验楼C" data-name="实验楼C" class="cls-1" cx="371" cy="750" r="8"/>
+    <circle id="_紫金湖" data-name="紫金湖" class="cls-1" cx="457" cy="735" r="8"/>
+    <circle id="_实验楼D" data-name="实验楼D" class="cls-1" cx="404" cy="800" r="8"/>
+    <circle id="_西门" data-name="西门" class="cls-1" cx="232" cy="679" r="8"/>
+    <circle id="_南大门" data-name="南大门" class="cls-1" cx="557" cy="857" r="8"/>
+    <circle id="_教学楼B" data-name="教学楼B" class="cls-1" cx="530" cy="619" r="8"/>
+    <circle id="_教学楼A" data-name="教学楼A" class="cls-1" cx="604" cy="661" r="8"/>
+    <circle id="_一食堂" data-name="一食堂" class="cls-1" cx="674" cy="310" r="8"/>
+    <circle id="_行政楼" data-name="行政楼" class="cls-1" cx="618" cy="774" r="8"/>
+    <circle id="_二食堂" data-name="二食堂" class="cls-1" cx="436" cy="128" r="8"/>
+    <circle id="_大操场" data-name="大操场" class="cls-1" cx="443" cy="307" r="8"/>
+  </g>
+</svg>

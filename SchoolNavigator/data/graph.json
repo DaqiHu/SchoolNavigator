@@ -1,0 +1,2038 @@
+{
+  "Locations": [
+    {
+      "Id": 69,
+      "Info": "\u7537\u751f\u5bbf\u820d\u3002\u5176\u4e2d702\u5ba4\u5c45\u4f4f\u7740\u73ca\u745a\u5bab\u7684\u6218\u58eb\u4eec\u3002",
+      "LocatedPathIds": [
+        127
+      ],
+      "LocatedVerticeIds": [
+        6
+      ],
+      "Name": "\u5bbf\u820d\u697c3\u5e62",
+      "X": 421.5,
+      "Y": 55.5
+    },
+    {
+      "Id": 70,
+      "Info": "\u7537\u751f\u5bbf\u820d\u3002",
+      "LocatedPathIds": [
+        26
+      ],
+      "LocatedVerticeIds": [
+        5
+      ],
+      "Name": "\u5bbf\u820d\u697cB11",
+      "X": 567.0,
+      "Y": 21.0
+    },
+    {
+      "Id": 71,
+      "Info": "\u5b66\u6821\u7684\u5feb\u9012\u4e2d\u5fc3\uff0c\u8d1f\u8d23\u6536\u53d1\u6240\u6709\u5feb\u9012\u3002",
+      "LocatedPathIds": [
+        25,
+        53,
+        55
+      ],
+      "LocatedVerticeIds": [
+        22,
+        30,
+        29
+      ],
+      "Name": "\u83dc\u9e1f\u9a7f\u7ad9",
+      "X": 754.0,
+      "Y": 311.0
+    },
+    {
+      "Id": 72,
+      "Info": "\u5728\u83dc\u9e1f\u9a7f\u7ad9\u7684\u4e1c\u4fa7\u3002\u5feb\u9012\u548c\u8d27\u7269\u4ece\u8fd9\u91cc\u8fdb\u51fa\uff0c\u4e00\u822c\u4e0d\u5bf9\u5e08\u751f\u5f00\u653e\u3002",
+      "LocatedPathIds": [
+        123
+      ],
+      "LocatedVerticeIds": [
+        25
+      ],
+      "Name": "\u4e1c\u95e8",
+      "X": 791.0,
+      "Y": 318.0
+    },
+    {
+      "Id": 73,
+      "Info": "\u4e8e2021\u5e74\u5efa\u6210\u7684\u65b0\u4f53\u80b2\u9986\uff0c\u6709\u7740\u5e72\u51c0\u6f02\u4eae\u7684\u7fbd\u6bdb\u7403\u573a\u5730\u3002\u8be5\u9986\u627f\u529e\u8fc7\u8bb8\u591a\u6c11\u95f4\u6216\u8005\u5b98\u65b9\u7684\u8d5b\u4e8b\u548c\u6d3b\u52a8\u3002",
+      "LocatedPathIds": [
+        27,
+        128
+      ],
+      "LocatedVerticeIds": [
+        22,
+        31
+      ],
+      "Name": "\u4f53\u80b2\u9986",
+      "X": 628.0,
+      "Y": 460.0
+    },
+    {
+      "Id": 74,
+      "Info": "\u5305\u542b\u6392\u7403\u573a\u3001\u7bee\u7403\u573a\u548c\u65e7\u8db3\u7403\u573a\u3002\u867d\u8ddd\u79bb\u5bbf\u820d\u697c\u8f83\u8fdc\uff0c\u5728\u8bfe\u4f59\u65f6\u95f4\u4f9d\u7136\u80fd\u89c1\u5230\u8bb8\u8bb8\u591a\u591a\u6325\u6d12\u6c57\u6c34\u7684\u8eab\u5f71\u3002\u65c1\u8fb9\u7684\u65e7\u8db3\u7403\u573a\u5df2\u7ecf\u5e9f\u5f03\uff0c\u6742\u8349\u6a2a\u751f\uff0c\u662f\u6821\u56ed\u5185\u6709\u8f83\u597d\u73af\u5883\u7684\u81ea\u7136\u53bb\u5904\u3002",
+      "LocatedPathIds": [
+        131
+      ],
+      "LocatedVerticeIds": [
+        36
+      ],
+      "Name": "\u65e7\u64cd\u573a",
+      "X": 685.0,
+      "Y": 583.0
+    },
+    {
+      "Id": 75,
+      "Info": "\u5973\u751f\u5bbf\u820d\u3002",
+      "LocatedPathIds": [
+        52
+      ],
+      "LocatedVerticeIds": [
+        24
+      ],
+      "Name": "\u5bbf\u820d\u697cA1",
+      "X": 772.0,
+      "Y": 529.0
+    },
+    {
+      "Id": 76,
+      "Info": "\u591a\u5a92\u4f53\u6559\u5b66\u697c\uff0c\u6700\u9ad85\u5c42\u3002",
+      "LocatedPathIds": [
+        28,
+        29,
+        129
+      ],
+      "LocatedVerticeIds": [
+        31,
+        32,
+        59
+      ],
+      "Name": "\u6559\u5b66\u697cC",
+      "X": 547.0,
+      "Y": 540.0
+    },
+    {
+      "Id": 77,
+      "Info": "\u5168\u6821\u6700\u5927\u7684\u85cf\u4e66\u5ba4\u3002\u6709\u7740\u4f17\u591a\u5c0f\u8bf4\u548c\u6587\u5b66\u4f5c\u54c1\uff0c\u540c\u5b66\u4eec\u603b\u80fd\u5728\u8fd9\u91cc\u627e\u5230\u81ea\u5df1\u7684\u6700\u7231\u3002",
+      "LocatedPathIds": [
+        47,
+        48,
+        49,
+        134
+      ],
+      "LocatedVerticeIds": [
+        14,
+        61,
+        58,
+        63
+      ],
+      "Name": "\u56fe\u4e66\u9986",
+      "X": 393.0,
+      "Y": 545.0
+    },
+    {
+      "Id": 78,
+      "Info": "\u795e\u79d8\u9886\u57df\uff0c\u5177\u4f53\u4fe1\u606f\u6682\u65f6\u672a\u516c\u5f00\u3002",
+      "LocatedPathIds": [
+        133
+      ],
+      "LocatedVerticeIds": [
+        62
+      ],
+      "Name": "\u7b2c\u4e8c\u884c\u653f\u697c",
+      "X": 248.0,
+      "Y": 577.0
+    },
+    {
+      "Id": 79,
+      "Info": "\u7537\u751f\u5bbf\u820d\u3002",
+      "LocatedPathIds": [
+        46
+      ],
+      "LocatedVerticeIds": [
+        64
+      ],
+      "Name": "\u5bbf\u820d\u697cD1",
+      "X": 226.0,
+      "Y": 523.0
+    },
+    {
+      "Id": 80,
+      "Info": "[\u5f85\u5b8c\u5584]XXX\u9662\u7684\u5b9e\u9a8c\u697c\uff0c\u6709\u7740\u4f17\u591a\u5148\u8fdb\u7684\u4eea\u5668\u548c\u8bbe\u5907\u3002",
+      "LocatedPathIds": [
+        44,
+        45
+      ],
+      "LocatedVerticeIds": [
+        54,
+        40
+      ],
+      "Name": "\u5b9e\u9a8c\u697cA",
+      "X": 325.0,
+      "Y": 644.0
+    },
+    {
+      "Id": 81,
+      "Info": "\u8ba1\u7b97\u673a\u5b66\u9662\u7684\u5b9e\u9a8c\u697c\uff0c\u8457\u540d\u7684\u7d2b\u91d1\u5b66\u9662IT\u5de5\u4f5c\u5ba4\u201cZJIT\u201d\u5c31\u5750\u843d\u4e8e\u5176\u4e2d\u3002\u6bcf\u5e74\u4ece\u8fd9\u5e62\u697c\u91cc\u8d70\u51fa\u6765\u7684\u201c\u9ad8\u624b\u201d\u6570\u4e0d\u80dc\u6570\u3002",
+      "LocatedPathIds": [
+        42,
+        43
+      ],
+      "LocatedVerticeIds": [
+        54,
+        40
+      ],
+      "Name": "\u5b9e\u9a8c\u697cB",
+      "X": 338.0,
+      "Y": 698.0
+    },
+    {
+      "Id": 82,
+      "Info": "\u7535\u5149\u5b66\u9662\u5b9e\u9a8c\u697c\uff0c\u5076\u5c14\u4f1a\u627f\u63a5\u5176\u5b83\u5b66\u9662\u7684\u4e13\u4e1a\u7c7b\u8bfe\u7a0b\u3002",
+      "LocatedPathIds": [
+        40,
+        41
+      ],
+      "LocatedVerticeIds": [
+        42,
+        43
+      ],
+      "Name": "\u5b9e\u9a8c\u697cC",
+      "X": 371.0,
+      "Y": 750.0
+    },
+    {
+      "Id": 83,
+      "Info": "\u4f60\u5728\u6865\u4e0a\u770b\u98ce\u666f\uff0c\u770b\u98ce\u666f\u7684\u4eba\u5728\u697c\u4e0a\u770b\u4f60~\u3002",
+      "LocatedPathIds": [
+        35,
+        36,
+        37
+      ],
+      "LocatedVerticeIds": [
+        47,
+        43,
+        50
+      ],
+      "Name": "\u7d2b\u91d1\u6e56",
+      "X": 457.0,
+      "Y": 735.0
+    },
+    {
+      "Id": 84,
+      "Info": "[\u5f85\u5b8c\u5584]XXX\u9662\u7684\u5b9e\u9a8c\u697c\uff0c\u5f88\u795e\u79d8\u3002",
+      "LocatedPathIds": [
+        38,
+        39
+      ],
+      "LocatedVerticeIds": [
+        42,
+        43
+      ],
+      "Name": "\u5b9e\u9a8c\u697cD",
+      "X": 404.0,
+      "Y": 800.0
+    },
+    {
+      "Id": 85,
+      "Info": "\u5b66\u6821\u5e73\u65e5\u91cc\u5e08\u751f\u8fdb\u51fa\u7684\u4e3b\u8981\u901a\u9053\u3002\u7531\u4e8e\u51fa\u95e8\u540e\u5916\u9762\u5c31\u662f\u8d85\u5e02\u3001\u5546\u573a\u3001\u6c34\u679c\u5e97\u7b49\u5e97\u94fa\uff0c\u5f88\u53d7\u540c\u5b66\u4eec\u6b22\u8fce\u3002",
+      "LocatedPathIds": [
+        132
+      ],
+      "LocatedVerticeIds": [
+        39
+      ],
+      "Name": "\u897f\u95e8",
+      "X": 232.0,
+      "Y": 679.0
+    },
+    {
+      "Id": 86,
+      "Info": "\u5b66\u6821\u7684\u5927\u95e8\u3002\u65b0\u751f\u5165\u5b66\u548c\u8fd4\u6821\u90fd\u5728\u8fd9\u91cc\u8fdb\u51fa\u3002\u5b66\u6821\u6700\u6c14\u6d3e\u7684\u7d2b\u91d1\u96d5\u523b\u4e5f\u5728\u8fd9\u91cc\u3002",
+      "LocatedPathIds": [
+        135
+      ],
+      "LocatedVerticeIds": [
+        46
+      ],
+      "Name": "\u5357\u5927\u95e8",
+      "X": 557.0,
+      "Y": 857.0
+    },
+    {
+      "Id": 87,
+      "Info": "\u7406\u8bba\u8bfe\u7684\u4e3b\u8981\u6559\u5b66\u697c\u3002\u76f8\u4fe1\u6bcf\u4f4d\u540c\u5b66\u90fd\u5728\u8fd9\u91cc\u5ea6\u8fc7\u4e86\u96be\u5fd8\u7684\u9ad8\u7b49\u6570\u5b66\u8bfe\u3002",
+      "LocatedPathIds": [
+        30,
+        31,
+        130
+      ],
+      "LocatedVerticeIds": [
+        34,
+        36,
+        51
+      ],
+      "Name": "\u6559\u5b66\u697cB",
+      "X": 530.0,
+      "Y": 619.0
+    },
+    {
+      "Id": 88,
+      "Info": "\u82f1\u8bed\u6559\u5b66\u697c\u30024\u697c\u662f\u56fd\u9645\u90e8\u7684\u4e13\u5c5e\u7a7a\u95f4\u3002",
+      "LocatedPathIds": [
+        32,
+        33,
+        34
+      ],
+      "LocatedVerticeIds": [
+        35,
+        48,
+        52
+      ],
+      "Name": "\u6559\u5b66\u697cA",
+      "X": 604.0,
+      "Y": 661.0
+    },
+    {
+      "Id": 89,
+      "Info": "\u98df\u5802\u5185\u6709\u4e00\u5757\u5927\u5c4f\u5e55\uff0c\u53ef\u4ee5\u770b\u4e16\u754c\u676f\u3001LPL\u3001TI\u7b49\u6bd4\u8d5b\u3002\u8fd9\u4e2a\u98df\u5802\u9664\u4e86\u8d35\u6ca1\u6709\u7f3a\u70b9\u3002",
+      "LocatedPathIds": [
+        54,
+        124
+      ],
+      "LocatedVerticeIds": [
+        22,
+        29
+      ],
+      "Name": "\u4e00\u98df\u5802",
+      "X": 674.0,
+      "Y": 310.0
+    },
+    {
+      "Id": 90,
+      "Info": "\u6821\u9886\u5bfc\u9a7b\u624e\u5730\u3002",
+      "LocatedPathIds": [
+        50,
+        51
+      ],
+      "LocatedVerticeIds": [
+        53,
+        46
+      ],
+      "Name": "\u884c\u653f\u697c",
+      "X": 618.0,
+      "Y": 774.0
+    },
+    {
+      "Id": 91,
+      "Info": "\u5b66\u6821\u5185\u6700\u5927\u7684\u98df\u5802\uff0c\u5171\u4e09\u5c42\u3002",
+      "LocatedPathIds": [
+        125,
+        126
+      ],
+      "LocatedVerticeIds": [
+        3,
+        1
+      ],
+      "Name": "\u4e8c\u98df\u5802",
+      "X": 436.0,
+      "Y": 128.0
+    },
+    {
+      "Id": 92,
+      "Info": "\u5927\u64cd\u573a\uff0c\u597d\u5927\u54ce\u3002",
+      "LocatedPathIds": [
+        136,
+        137
+      ],
+      "LocatedVerticeIds": [
+        18,
+        17
+      ],
+      "Name": "\u5927\u64cd\u573a",
+      "X": 443.0,
+      "Y": 307.0
+    }
+  ],
+  "Paths": [
+    {
+      "Data": "M 556.0,92.0 L 562.5,108.5 L 560.0,122.0",
+      "Distance": 31.46367806871418,
+      "EndVerticeId": 11,
+      "Id": 0,
+      "IsEnabled": true,
+      "Name": "Path_0",
+      "StartVerticeId": 7
+    },
+    {
+      "Data": "M 532.0,55.0 L 541.5,65.5 L 556.0,92.0",
+      "Distance": 44.367417192492724,
+      "EndVerticeId": 7,
+      "Id": 1,
+      "IsEnabled": true,
+      "Name": "Path_1",
+      "StartVerticeId": 5
+    },
+    {
+      "Data": "M 556.0,92.0 L 622.5,57.5 L 634.0,50.0",
+      "Distance": 88.64615053660447,
+      "EndVerticeId": 8,
+      "Id": 2,
+      "IsEnabled": true,
+      "Name": "Path_2",
+      "StartVerticeId": 7
+    },
+    {
+      "Data": "M 528.0,214.0 L 562.5,225.38 L 577.0,232.0",
+      "Distance": 52.26813554838152,
+      "EndVerticeId": 13,
+      "Id": 3,
+      "IsEnabled": true,
+      "Name": "Path_3",
+      "StartVerticeId": 12
+    },
+    {
+      "Data": "M 545.0,459.0 L 637.5,408.5 L 664.0,388.0",
+      "Distance": 138.89111178423042,
+      "EndVerticeId": 22,
+      "Id": 4,
+      "IsEnabled": true,
+      "Name": "Path_4",
+      "StartVerticeId": 21
+    },
+    {
+      "Data": "M 676.0,701.0 L 742.23,665.0 L 761.0,646.0 L 769.0,628.0 L 772.0,603.0 L 769.0,584.72 L 760.0,563.0",
+      "Distance": 189.00212109925198,
+      "EndVerticeId": 24,
+      "Id": 5,
+      "IsEnabled": true,
+      "Name": "Path_5",
+      "StartVerticeId": 33
+    },
+    {
+      "Data": "M 387.0,221.0 L 394.5,201.5 L 401.5,193.5 L 407.85,187.75 L 416.5,184.5 L 424.5,183.5",
+      "Distance": 57.39189093905825,
+      "EndVerticeId": 0,
+      "Id": 6,
+      "IsEnabled": true,
+      "Name": "Path_6",
+      "StartVerticeId": 68
+    },
+    {
+      "Data": "M 470.0,499.0 L 465.0,489.31 L 437.0,480.0",
+      "Distance": 40.41116997608337,
+      "EndVerticeId": 14,
+      "Id": 7,
+      "IsEnabled": true,
+      "Name": "Path_7",
+      "StartVerticeId": 20
+    },
+    {
+      "Data": "M 442.0,514.0 L 436.5,503.5 L 429.94,477.57 L 437.0,480.0",
+      "Distance": 46.0666958083365,
+      "EndVerticeId": 14,
+      "Id": 8,
+      "IsEnabled": true,
+      "Name": "Path_8",
+      "StartVerticeId": 19
+    },
+    {
+      "Data": "M 465.0,559.0 L 450.03,542.0 L 442.0,514.0",
+      "Distance": 51.78042609191877,
+      "EndVerticeId": 19,
+      "Id": 9,
+      "IsEnabled": true,
+      "Name": "Path_9",
+      "StartVerticeId": 61
+    },
+    {
+      "Data": "M 326.0,806.0 L 331.5,818.5 L 345.0,832.96 L 367.0,847.32 L 391.5,853.5 L 401.88,853.5 L 419.5,850.5 L 446.5,836.5 L 482.0,811.0",
+      "Distance": 187.35476073037364,
+      "EndVerticeId": 44,
+      "Id": 10,
+      "IsEnabled": true,
+      "Name": "Path_10",
+      "StartVerticeId": 42
+    },
+    {
+      "Data": "M 551.0,708.0 L 532.0,713.48 L 499.0,733.0",
+      "Distance": 58.11546408550075,
+      "EndVerticeId": 47,
+      "Id": 11,
+      "IsEnabled": true,
+      "Name": "Path_11",
+      "StartVerticeId": 48
+    },
+    {
+      "Data": "M 565.0,761.0 L 560.9,733.0 L 551.0,708.0",
+      "Distance": 55.187431807995324,
+      "EndVerticeId": 48,
+      "Id": 12,
+      "IsEnabled": true,
+      "Name": "Path_12",
+      "StartVerticeId": 49
+    },
+    {
+      "Data": "M 255.0,669.0 L 259.87,659.0 L 281.0,581.0",
+      "Distance": 91.93417605278972,
+      "EndVerticeId": 62,
+      "Id": 13,
+      "IsEnabled": true,
+      "Name": "Path_13",
+      "StartVerticeId": 39
+    },
+    {
+      "Data": "M 359.0,608.0 L 348.0,599.96 L 293.0,591.0 L 281.0,581.0",
+      "Distance": 84.97058874304201,
+      "EndVerticeId": 62,
+      "Id": 14,
+      "IsEnabled": true,
+      "Name": "Path_14",
+      "StartVerticeId": 56
+    },
+    {
+      "Data": "M 271.0,515.0 L 274.89,521.0 L 293.0,539.0",
+      "Distance": 32.684415636756974,
+      "EndVerticeId": 38,
+      "Id": 15,
+      "IsEnabled": true,
+      "Name": "Path_15",
+      "StartVerticeId": 64
+    },
+    {
+      "Data": "M 551.0,708.0 L 534.5,662.5 L 530.0,655.0",
+      "Distance": 57.14580800358819,
+      "EndVerticeId": 52,
+      "Id": 16,
+      "IsEnabled": true,
+      "Name": "Path_16",
+      "StartVerticeId": 48
+    },
+    {
+      "Data": "M 556.0,92.0 L 526.5,107.5 L 514.5,110.5 L 499.0,107.0",
+      "Distance": 61.583730864826954,
+      "EndVerticeId": 4,
+      "Id": 17,
+      "IsEnabled": true,
+      "Name": "Path_17",
+      "StartVerticeId": 7
+    },
+    {
+      "Data": "M 489.0,140.0 L 480.5,171.5 L 465.0,192.0",
+      "Distance": 58.326870753943695,
+      "EndVerticeId": 2,
+      "Id": 18,
+      "IsEnabled": true,
+      "Name": "Path_18",
+      "StartVerticeId": 3
+    },
+    {
+      "Data": "M 560.0,122.0 L 551.5,144.5 L 545.0,155.0",
+      "Distance": 36.401115976839854,
+      "EndVerticeId": 10,
+      "Id": 19,
+      "IsEnabled": true,
+      "Name": "Path_19",
+      "StartVerticeId": 11
+    },
+    {
+      "Data": "M 489.0,140.0 L 518.5,150.5 L 535.5,155.5 L 545.0,155.0",
+      "Distance": 58.54613056559193,
+      "EndVerticeId": 10,
+      "Id": 20,
+      "IsEnabled": true,
+      "Name": "Path_20",
+      "StartVerticeId": 3
+    },
+    {
+      "Data": "M 528.0,214.0 L 538.96,170.75 L 545.0,155.0",
+      "Distance": 61.48551807051574,
+      "EndVerticeId": 10,
+      "Id": 21,
+      "IsEnabled": true,
+      "Name": "Path_21",
+      "StartVerticeId": 12
+    },
+    {
+      "Data": "M 778.0,324.0 L 696.5,371.5 L 664.0,388.0",
+      "Distance": 130.78045493868171,
+      "EndVerticeId": 22,
+      "Id": 22,
+      "IsEnabled": true,
+      "Name": "Path_22",
+      "StartVerticeId": 25
+    },
+    {
+      "Data": "M 738.0,230.0 L 757.5,277.5 L 761.0,287.0",
+      "Distance": 61.47108805541926,
+      "EndVerticeId": 30,
+      "Id": 23,
+      "IsEnabled": true,
+      "Name": "Path_23",
+      "StartVerticeId": 27
+    },
+    {
+      "Data": "M 433.0,23.0 L 523.5,50.5 L 532.0,55.0",
+      "Distance": 104.20363178934312,
+      "EndVerticeId": 5,
+      "Id": 24,
+      "IsEnabled": true,
+      "Name": "Path_24",
+      "StartVerticeId": 6
+    },
+    {
+      "Data": "M 754.0,311.0 L 764.41,331.92 L 695.91,371.8 L 664.0,388.0",
+      "Distance": 138.41691608757978,
+      "EndVerticeId": 22,
+      "Id": 25,
+      "IsEnabled": true,
+      "Name": "Path_25",
+      "StartVerticeId": 71
+    },
+    {
+      "Data": "M 532.0,55.0 L 560.5,45.5 L 552.5,23.5 L 567.0,21.0",
+      "Distance": 68.16497656260101,
+      "EndVerticeId": 70,
+      "Id": 26,
+      "IsEnabled": true,
+      "Name": "Path_26",
+      "StartVerticeId": 5
+    },
+    {
+      "Data": "M 664.0,388.0 L 638.43,407.78 L 624.7,415.49 L 643.5,452.5 L 628.0,460.0",
+      "Distance": 106.80462378353054,
+      "EndVerticeId": 73,
+      "Id": 27,
+      "IsEnabled": true,
+      "Name": "Path_27",
+      "StartVerticeId": 22
+    },
+    {
+      "Data": "M 547.0,540.0 L 534.4,519.54 L 567.0,501.0",
+      "Distance": 61.531779204154425,
+      "EndVerticeId": 31,
+      "Id": 28,
+      "IsEnabled": true,
+      "Name": "Path_28",
+      "StartVerticeId": 76
+    },
+    {
+      "Data": "M 587.0,537.0 L 577.56,520.0 L 547.0,540.0",
+      "Distance": 55.967925283800916,
+      "EndVerticeId": 76,
+      "Id": 29,
+      "IsEnabled": true,
+      "Name": "Path_29",
+      "StartVerticeId": 32
+    },
+    {
+      "Data": "M 593.0,550.0 L 514.0,591.18 L 530.0,619.0",
+      "Distance": 121.18154865317914,
+      "EndVerticeId": 87,
+      "Id": 30,
+      "IsEnabled": true,
+      "Name": "Path_30",
+      "StartVerticeId": 34
+    },
+    {
+      "Data": "M 623.0,607.0 L 606.85,576.32 L 530.0,619.0",
+      "Distance": 122.57732391061757,
+      "EndVerticeId": 87,
+      "Id": 31,
+      "IsEnabled": true,
+      "Name": "Path_31",
+      "StartVerticeId": 36
+    },
+    {
+      "Data": "M 651.0,658.0 L 611.37,677.81 L 604.0,661.0",
+      "Distance": 62.660096320503044,
+      "EndVerticeId": 88,
+      "Id": 32,
+      "IsEnabled": true,
+      "Name": "Path_32",
+      "StartVerticeId": 35
+    },
+    {
+      "Data": "M 551.0,708.0 L 610.97,678.01 L 604.0,661.0",
+      "Distance": 85.43336219098484,
+      "EndVerticeId": 88,
+      "Id": 33,
+      "IsEnabled": true,
+      "Name": "Path_33",
+      "StartVerticeId": 48
+    },
+    {
+      "Data": "M 530.0,655.0 L 536.37,651.71 L 544.5,670.5 L 595.5,643.5 L 604.0,661.0",
+      "Distance": 104.80409951073469,
+      "EndVerticeId": 88,
+      "Id": 34,
+      "IsEnabled": true,
+      "Name": "Path_34",
+      "StartVerticeId": 52
+    },
+    {
+      "Data": "M 457.0,735.0 L 490.03,718.19 L 499.0,733.0",
+      "Distance": 54.376176898637254,
+      "EndVerticeId": 47,
+      "Id": 35,
+      "IsEnabled": true,
+      "Name": "Path_35",
+      "StartVerticeId": 83
+    },
+    {
+      "Data": "M 428.0,743.0 L 433.0,749.3 L 457.0,735.0",
+      "Distance": 35.98026050449874,
+      "EndVerticeId": 83,
+      "Id": 36,
+      "IsEnabled": true,
+      "Name": "Path_36",
+      "StartVerticeId": 43
+    },
+    {
+      "Data": "M 456.0,662.0 L 489.5,717.32 L 457.0,735.0",
+      "Distance": 101.67039080222023,
+      "EndVerticeId": 83,
+      "Id": 37,
+      "IsEnabled": true,
+      "Name": "Path_37",
+      "StartVerticeId": 50
+    },
+    {
+      "Data": "M 326.0,806.0 L 358.99,785.62 L 372.5,816.5 L 404.0,800.0",
+      "Distance": 108.0431807012206,
+      "EndVerticeId": 84,
+      "Id": 38,
+      "IsEnabled": true,
+      "Name": "Path_38",
+      "StartVerticeId": 42
+    },
+    {
+      "Data": "M 428.0,743.0 L 414.0,751.64 L 426.5,786.5 L 404.0,800.0",
+      "Distance": 79.72407301124181,
+      "EndVerticeId": 84,
+      "Id": 39,
+      "IsEnabled": true,
+      "Name": "Path_39",
+      "StartVerticeId": 43
+    },
+    {
+      "Data": "M 326.0,806.0 L 351.39,790.32 L 342.5,766.5 L 371.0,750.0",
+      "Distance": 88.19811672163544,
+      "EndVerticeId": 82,
+      "Id": 40,
+      "IsEnabled": true,
+      "Name": "Path_40",
+      "StartVerticeId": 42
+    },
+    {
+      "Data": "M 428.0,743.0 L 394.7,763.57 L 387.5,740.5 L 371.0,750.0",
+      "Distance": 82.3478293848068,
+      "EndVerticeId": 82,
+      "Id": 41,
+      "IsEnabled": true,
+      "Name": "Path_41",
+      "StartVerticeId": 43
+    },
+    {
+      "Data": "M 338.0,698.0 L 360.5,687.5 L 345.51,659.69 L 370.0,646.0",
+      "Distance": 84.47873910423398,
+      "EndVerticeId": 54,
+      "Id": 42,
+      "IsEnabled": true,
+      "Name": "Path_42",
+      "StartVerticeId": 81
+    },
+    {
+      "Data": "M 268.0,703.0 L 296.5,687.07 L 310.5,716.5 L 338.0,698.0",
+      "Distance": 98.38376819899057,
+      "EndVerticeId": 81,
+      "Id": 43,
+      "IsEnabled": true,
+      "Name": "Path_43",
+      "StartVerticeId": 40
+    },
+    {
+      "Data": "M 370.0,646.0 L 350.32,657.0 L 341.5,638.5 L 325.0,644.0",
+      "Distance": 60.43302584715482,
+      "EndVerticeId": 80,
+      "Id": 44,
+      "IsEnabled": true,
+      "Name": "Path_44",
+      "StartVerticeId": 54
+    },
+    {
+      "Data": "M 268.0,703.0 L 312.02,678.4 L 302.17,657.0 L 325.0,644.0",
+      "Distance": 100.2572711596437,
+      "EndVerticeId": 80,
+      "Id": 45,
+      "IsEnabled": true,
+      "Name": "Path_45",
+      "StartVerticeId": 40
+    },
+    {
+      "Data": "M 271.0,515.0 L 250.26,477.57 L 214.5,498.5 L 226.0,523.0",
+      "Distance": 111.29150308705775,
+      "EndVerticeId": 79,
+      "Id": 46,
+      "IsEnabled": true,
+      "Name": "Path_46",
+      "StartVerticeId": 64
+    },
+    {
+      "Data": "M 437.0,480.0 L 422.5,474.5 L 393.0,545.0",
+      "Distance": 91.93122644693982,
+      "EndVerticeId": 77,
+      "Id": 47,
+      "IsEnabled": true,
+      "Name": "Path_47",
+      "StartVerticeId": 14
+    },
+    {
+      "Data": "M 465.0,559.0 L 434.0,557.33 L 393.0,545.0",
+      "Distance": 73.8588364356547,
+      "EndVerticeId": 77,
+      "Id": 48,
+      "IsEnabled": true,
+      "Name": "Path_48",
+      "StartVerticeId": 61
+    },
+    {
+      "Data": "M 426.0,613.0 L 412.0,581.0 L 393.0,545.0",
+      "Distance": 75.6347632672412,
+      "EndVerticeId": 77,
+      "Id": 49,
+      "IsEnabled": true,
+      "Name": "Path_49",
+      "StartVerticeId": 58
+    },
+    {
+      "Data": "M 618.0,774.0 L 606.5,760.5 L 597.0,744.0",
+      "Distance": 36.77358061562797,
+      "EndVerticeId": 53,
+      "Id": 50,
+      "IsEnabled": true,
+      "Name": "Path_50",
+      "StartVerticeId": 90
+    },
+    {
+      "Data": "M 540.0,811.0 L 573.5,794.5 L 569.44,785.62 L 569.59,782.0 L 571.5,779.5 L 606.65,760.68 L 618.0,774.0",
+      "Distance": 111.2474369459662,
+      "EndVerticeId": 90,
+      "Id": 51,
+      "IsEnabled": true,
+      "Name": "Path_51",
+      "StartVerticeId": 46
+    },
+    {
+      "Data": "M 760.0,563.0 L 805.54,537.0 L 788.5,502.5 L 772.0,529.0",
+      "Distance": 122.13510759725179,
+      "EndVerticeId": 75,
+      "Id": 52,
+      "IsEnabled": true,
+      "Name": "Path_52",
+      "StartVerticeId": 24
+    },
+    {
+      "Data": "M 754.0,311.0 L 745.73,295.4 L 761.0,287.0",
+      "Distance": 35.084460178950216,
+      "EndVerticeId": 30,
+      "Id": 53,
+      "IsEnabled": true,
+      "Name": "Path_53",
+      "StartVerticeId": 71
+    },
+    {
+      "Data": "M 674.0,310.0 L 664.0,314.39 L 686.47,355.38 L 696.19,371.64 L 664.0,388.0",
+      "Distance": 112.71858916263288,
+      "EndVerticeId": 22,
+      "Id": 54,
+      "IsEnabled": true,
+      "Name": "Path_54",
+      "StartVerticeId": 89
+    },
+    {
+      "Data": "M 633.0,328.0 L 663.63,314.55 L 675.06,334.57 L 746.11,295.19 L 754.0,311.0",
+      "Distance": 155.40898782741712,
+      "EndVerticeId": 71,
+      "Id": 55,
+      "IsEnabled": true,
+      "Name": "Path_55",
+      "StartVerticeId": 29
+    },
+    {
+      "Data": "M 376.0,262.0 L 400.5,268.5 L 393.0,292.0",
+      "Distance": 50.015376478361176,
+      "EndVerticeId": 18,
+      "Id": 56,
+      "IsEnabled": true,
+      "Name": "Path_56",
+      "StartVerticeId": 67
+    },
+    {
+      "Data": "M 364.0,303.0 L 386.5,310.5 L 393.0,292.0",
+      "Distance": 43.325754002390426,
+      "EndVerticeId": 18,
+      "Id": 57,
+      "IsEnabled": true,
+      "Name": "Path_57",
+      "StartVerticeId": 66
+    },
+    {
+      "Data": "M 424.5,183.5 L 431.0,158.0",
+      "Distance": 26.315394733881533,
+      "EndVerticeId": 1,
+      "Id": 58,
+      "IsEnabled": true,
+      "Name": "Path_58",
+      "StartVerticeId": 0
+    },
+    {
+      "Data": "M 424.5,183.5 L 465.0,192.0",
+      "Distance": 41.382363393117124,
+      "EndVerticeId": 2,
+      "Id": 59,
+      "IsEnabled": true,
+      "Name": "Path_59",
+      "StartVerticeId": 0
+    },
+    {
+      "Data": "M 499.0,107.0 L 489.0,140.0",
+      "Distance": 34.48187929913333,
+      "EndVerticeId": 3,
+      "Id": 60,
+      "IsEnabled": true,
+      "Name": "Path_60",
+      "StartVerticeId": 4
+    },
+    {
+      "Data": "M 465.0,192.0 L 528.0,214.0",
+      "Distance": 66.73080248281148,
+      "EndVerticeId": 12,
+      "Id": 61,
+      "IsEnabled": true,
+      "Name": "Path_61",
+      "StartVerticeId": 2
+    },
+    {
+      "Data": "M 560.0,122.0 L 499.0,107.0",
+      "Distance": 62.81719509815764,
+      "EndVerticeId": 4,
+      "Id": 62,
+      "IsEnabled": true,
+      "Name": "Path_62",
+      "StartVerticeId": 11
+    },
+    {
+      "Data": "M 577.0,232.0 L 591.0,252.0",
+      "Distance": 24.413111231467404,
+      "EndVerticeId": 26,
+      "Id": 63,
+      "IsEnabled": true,
+      "Name": "Path_63",
+      "StartVerticeId": 13
+    },
+    {
+      "Data": "M 614.0,293.0 L 591.0,252.0",
+      "Distance": 47.01063709417264,
+      "EndVerticeId": 26,
+      "Id": 64,
+      "IsEnabled": true,
+      "Name": "Path_64",
+      "StartVerticeId": 28
+    },
+    {
+      "Data": "M 633.0,328.0 L 614.0,293.0",
+      "Distance": 39.824615503479755,
+      "EndVerticeId": 28,
+      "Id": 65,
+      "IsEnabled": true,
+      "Name": "Path_65",
+      "StartVerticeId": 29
+    },
+    {
+      "Data": "M 664.0,388.0 L 633.0,328.0",
+      "Distance": 67.53517601961218,
+      "EndVerticeId": 29,
+      "Id": 66,
+      "IsEnabled": true,
+      "Name": "Path_66",
+      "StartVerticeId": 22
+    },
+    {
+      "Data": "M 708.0,471.0 L 664.0,388.0",
+      "Distance": 93.94147114027967,
+      "EndVerticeId": 22,
+      "Id": 67,
+      "IsEnabled": true,
+      "Name": "Path_67",
+      "StartVerticeId": 23
+    },
+    {
+      "Data": "M 567.0,501.0 L 545.0,459.0",
+      "Distance": 47.41307836451879,
+      "EndVerticeId": 21,
+      "Id": 68,
+      "IsEnabled": true,
+      "Name": "Path_68",
+      "StartVerticeId": 31
+    },
+    {
+      "Data": "M 587.0,537.0 L 567.0,501.0",
+      "Distance": 41.182520563948,
+      "EndVerticeId": 31,
+      "Id": 69,
+      "IsEnabled": true,
+      "Name": "Path_69",
+      "StartVerticeId": 32
+    },
+    {
+      "Data": "M 708.0,471.0 L 587.0,537.0",
+      "Distance": 137.82960494755835,
+      "EndVerticeId": 32,
+      "Id": 70,
+      "IsEnabled": true,
+      "Name": "Path_70",
+      "StartVerticeId": 23
+    },
+    {
+      "Data": "M 593.0,550.0 L 587.0,537.0",
+      "Distance": 14.317821063276353,
+      "EndVerticeId": 32,
+      "Id": 71,
+      "IsEnabled": true,
+      "Name": "Path_71",
+      "StartVerticeId": 34
+    },
+    {
+      "Data": "M 708.0,471.0 L 760.0,563.0",
+      "Distance": 105.67875850898325,
+      "EndVerticeId": 24,
+      "Id": 72,
+      "IsEnabled": true,
+      "Name": "Path_72",
+      "StartVerticeId": 23
+    },
+    {
+      "Data": "M 376.0,262.0 L 387.0,221.0",
+      "Distance": 42.44997055358225,
+      "EndVerticeId": 68,
+      "Id": 73,
+      "IsEnabled": true,
+      "Name": "Path_73",
+      "StartVerticeId": 67
+    },
+    {
+      "Data": "M 364.0,303.0 L 376.0,262.0",
+      "Distance": 42.720018726587654,
+      "EndVerticeId": 67,
+      "Id": 74,
+      "IsEnabled": true,
+      "Name": "Path_74",
+      "StartVerticeId": 66
+    },
+    {
+      "Data": "M 348.0,353.0 L 364.0,303.0",
+      "Distance": 52.49761899362675,
+      "EndVerticeId": 66,
+      "Id": 75,
+      "IsEnabled": true,
+      "Name": "Path_75",
+      "StartVerticeId": 65
+    },
+    {
+      "Data": "M 321.0,440.0 L 348.0,353.0",
+      "Distance": 91.09335870413386,
+      "EndVerticeId": 65,
+      "Id": 76,
+      "IsEnabled": true,
+      "Name": "Path_76",
+      "StartVerticeId": 37
+    },
+    {
+      "Data": "M 437.0,480.0 L 321.0,440.0",
+      "Distance": 122.70289320142373,
+      "EndVerticeId": 37,
+      "Id": 77,
+      "IsEnabled": true,
+      "Name": "Path_77",
+      "StartVerticeId": 14
+    },
+    {
+      "Data": "M 442.0,514.0 L 470.0,499.0",
+      "Distance": 31.76476034853718,
+      "EndVerticeId": 20,
+      "Id": 78,
+      "IsEnabled": true,
+      "Name": "Path_78",
+      "StartVerticeId": 19
+    },
+    {
+      "Data": "M 545.0,459.0 L 470.0,499.0",
+      "Distance": 85.0,
+      "EndVerticeId": 20,
+      "Id": 79,
+      "IsEnabled": true,
+      "Name": "Path_79",
+      "StartVerticeId": 21
+    },
+    {
+      "Data": "M 426.0,613.0 L 481.0,577.0",
+      "Distance": 65.73431371817918,
+      "EndVerticeId": 59,
+      "Id": 80,
+      "IsEnabled": true,
+      "Name": "Path_80",
+      "StartVerticeId": 58
+    },
+    {
+      "Data": "M 481.0,577.0 L 465.0,559.0",
+      "Distance": 24.08318915758459,
+      "EndVerticeId": 61,
+      "Id": 81,
+      "IsEnabled": true,
+      "Name": "Path_81",
+      "StartVerticeId": 59
+    },
+    {
+      "Data": "M 456.0,662.0 L 514.0,628.0",
+      "Distance": 67.23094525588644,
+      "EndVerticeId": 51,
+      "Id": 82,
+      "IsEnabled": true,
+      "Name": "Path_82",
+      "StartVerticeId": 50
+    },
+    {
+      "Data": "M 426.0,613.0 L 456.0,662.0",
+      "Distance": 57.4543296888929,
+      "EndVerticeId": 50,
+      "Id": 83,
+      "IsEnabled": true,
+      "Name": "Path_83",
+      "StartVerticeId": 58
+    },
+    {
+      "Data": "M 415.0,619.0 L 426.0,613.0",
+      "Distance": 12.529964086141668,
+      "EndVerticeId": 58,
+      "Id": 84,
+      "IsEnabled": true,
+      "Name": "Path_84",
+      "StartVerticeId": 57
+    },
+    {
+      "Data": "M 359.0,608.0 L 415.0,619.0",
+      "Distance": 57.0701322935211,
+      "EndVerticeId": 57,
+      "Id": 85,
+      "IsEnabled": true,
+      "Name": "Path_85",
+      "StartVerticeId": 56
+    },
+    {
+      "Data": "M 370.0,646.0 L 359.0,608.0",
+      "Distance": 39.56008088970496,
+      "EndVerticeId": 56,
+      "Id": 86,
+      "IsEnabled": true,
+      "Name": "Path_86",
+      "StartVerticeId": 54
+    },
+    {
+      "Data": "M 415.0,619.0 L 370.0,646.0",
+      "Distance": 52.478567053607705,
+      "EndVerticeId": 54,
+      "Id": 87,
+      "IsEnabled": true,
+      "Name": "Path_87",
+      "StartVerticeId": 57
+    },
+    {
+      "Data": "M 268.0,703.0 L 370.0,646.0",
+      "Distance": 116.84605256490268,
+      "EndVerticeId": 54,
+      "Id": 88,
+      "IsEnabled": true,
+      "Name": "Path_88",
+      "StartVerticeId": 40
+    },
+    {
+      "Data": "M 255.0,669.0 L 268.0,703.0",
+      "Distance": 36.40054944640259,
+      "EndVerticeId": 40,
+      "Id": 89,
+      "IsEnabled": true,
+      "Name": "Path_89",
+      "StartVerticeId": 39
+    },
+    {
+      "Data": "M 396.0,697.0 L 370.0,646.0",
+      "Distance": 57.245087125446844,
+      "EndVerticeId": 54,
+      "Id": 90,
+      "IsEnabled": true,
+      "Name": "Path_90",
+      "StartVerticeId": 55
+    },
+    {
+      "Data": "M 294.0,753.0 L 268.0,703.0",
+      "Distance": 56.356011214421486,
+      "EndVerticeId": 40,
+      "Id": 91,
+      "IsEnabled": true,
+      "Name": "Path_91",
+      "StartVerticeId": 41
+    },
+    {
+      "Data": "M 396.0,697.0 L 294.0,753.0",
+      "Distance": 116.36150566231085,
+      "EndVerticeId": 41,
+      "Id": 92,
+      "IsEnabled": true,
+      "Name": "Path_92",
+      "StartVerticeId": 55
+    },
+    {
+      "Data": "M 326.0,806.0 L 294.0,753.0",
+      "Distance": 61.91122676865643,
+      "EndVerticeId": 41,
+      "Id": 93,
+      "IsEnabled": true,
+      "Name": "Path_93",
+      "StartVerticeId": 42
+    },
+    {
+      "Data": "M 428.0,743.0 L 326.0,806.0",
+      "Distance": 119.8874472161285,
+      "EndVerticeId": 42,
+      "Id": 94,
+      "IsEnabled": true,
+      "Name": "Path_94",
+      "StartVerticeId": 43
+    },
+    {
+      "Data": "M 396.0,697.0 L 428.0,743.0",
+      "Distance": 56.0357029044876,
+      "EndVerticeId": 43,
+      "Id": 95,
+      "IsEnabled": true,
+      "Name": "Path_95",
+      "StartVerticeId": 55
+    },
+    {
+      "Data": "M 482.0,811.0 L 428.0,743.0",
+      "Distance": 86.83317338436964,
+      "EndVerticeId": 43,
+      "Id": 96,
+      "IsEnabled": true,
+      "Name": "Path_96",
+      "StartVerticeId": 44
+    },
+    {
+      "Data": "M 529.0,781.0 L 482.0,811.0",
+      "Distance": 55.758407437802596,
+      "EndVerticeId": 44,
+      "Id": 97,
+      "IsEnabled": true,
+      "Name": "Path_97",
+      "StartVerticeId": 45
+    },
+    {
+      "Data": "M 499.0,733.0 L 456.0,662.0",
+      "Distance": 83.00602387778854,
+      "EndVerticeId": 50,
+      "Id": 98,
+      "IsEnabled": true,
+      "Name": "Path_98",
+      "StartVerticeId": 47
+    },
+    {
+      "Data": "M 529.0,781.0 L 499.0,733.0",
+      "Distance": 56.60388679233962,
+      "EndVerticeId": 47,
+      "Id": 99,
+      "IsEnabled": true,
+      "Name": "Path_99",
+      "StartVerticeId": 45
+    },
+    {
+      "Data": "M 529.0,781.0 L 565.0,761.0",
+      "Distance": 41.182520563948,
+      "EndVerticeId": 49,
+      "Id": 100,
+      "IsEnabled": true,
+      "Name": "Path_100",
+      "StartVerticeId": 45
+    },
+    {
+      "Data": "M 597.0,744.0 L 565.0,761.0",
+      "Distance": 36.235341863986875,
+      "EndVerticeId": 49,
+      "Id": 101,
+      "IsEnabled": true,
+      "Name": "Path_101",
+      "StartVerticeId": 53
+    },
+    {
+      "Data": "M 676.0,701.0 L 597.0,744.0",
+      "Distance": 89.94442728707543,
+      "EndVerticeId": 53,
+      "Id": 102,
+      "IsEnabled": true,
+      "Name": "Path_102",
+      "StartVerticeId": 33
+    },
+    {
+      "Data": "M 540.0,811.0 L 529.0,781.0",
+      "Distance": 31.953090617340916,
+      "EndVerticeId": 45,
+      "Id": 103,
+      "IsEnabled": true,
+      "Name": "Path_103",
+      "StartVerticeId": 46
+    },
+    {
+      "Data": "M 623.0,607.0 L 593.0,550.0",
+      "Distance": 64.41273166075166,
+      "EndVerticeId": 34,
+      "Id": 104,
+      "IsEnabled": true,
+      "Name": "Path_104",
+      "StartVerticeId": 36
+    },
+    {
+      "Data": "M 651.0,658.0 L 623.0,607.0",
+      "Distance": 58.180752831155424,
+      "EndVerticeId": 36,
+      "Id": 105,
+      "IsEnabled": true,
+      "Name": "Path_105",
+      "StartVerticeId": 35
+    },
+    {
+      "Data": "M 676.0,701.0 L 651.0,658.0",
+      "Distance": 49.73932046178355,
+      "EndVerticeId": 35,
+      "Id": 106,
+      "IsEnabled": true,
+      "Name": "Path_106",
+      "StartVerticeId": 33
+    },
+    {
+      "Data": "M 551.0,708.0 L 651.0,658.0",
+      "Distance": 111.80339887498948,
+      "EndVerticeId": 35,
+      "Id": 107,
+      "IsEnabled": true,
+      "Name": "Path_107",
+      "StartVerticeId": 48
+    },
+    {
+      "Data": "M 465.0,559.0 L 567.0,501.0",
+      "Distance": 117.33712115098103,
+      "EndVerticeId": 31,
+      "Id": 108,
+      "IsEnabled": true,
+      "Name": "Path_108",
+      "StartVerticeId": 61
+    },
+    {
+      "Data": "M 293.0,539.0 L 281.0,581.0",
+      "Distance": 43.68065933568311,
+      "EndVerticeId": 62,
+      "Id": 109,
+      "IsEnabled": true,
+      "Name": "Path_109",
+      "StartVerticeId": 38
+    },
+    {
+      "Data": "M 299.0,521.0 L 293.0,539.0",
+      "Distance": 18.973665961010276,
+      "EndVerticeId": 38,
+      "Id": 110,
+      "IsEnabled": true,
+      "Name": "Path_110",
+      "StartVerticeId": 63
+    },
+    {
+      "Data": "M 321.0,440.0 L 299.0,521.0",
+      "Distance": 83.93449827097318,
+      "EndVerticeId": 63,
+      "Id": 111,
+      "IsEnabled": true,
+      "Name": "Path_111",
+      "StartVerticeId": 37
+    },
+    {
+      "Data": "M 481.0,577.0 L 499.0,599.0",
+      "Distance": 28.42534080710379,
+      "EndVerticeId": 60,
+      "Id": 112,
+      "IsEnabled": true,
+      "Name": "Path_112",
+      "StartVerticeId": 59
+    },
+    {
+      "Data": "M 514.0,628.0 L 499.0,599.0",
+      "Distance": 32.64965543462902,
+      "EndVerticeId": 60,
+      "Id": 113,
+      "IsEnabled": true,
+      "Name": "Path_113",
+      "StartVerticeId": 51
+    },
+    {
+      "Data": "M 593.0,550.0 L 499.0,599.0",
+      "Distance": 106.00471687618433,
+      "EndVerticeId": 60,
+      "Id": 114,
+      "IsEnabled": true,
+      "Name": "Path_114",
+      "StartVerticeId": 34
+    },
+    {
+      "Data": "M 514.0,628.0 L 530.0,655.0",
+      "Distance": 31.38470965295043,
+      "EndVerticeId": 52,
+      "Id": 115,
+      "IsEnabled": true,
+      "Name": "Path_115",
+      "StartVerticeId": 51
+    },
+    {
+      "Data": "M 623.0,607.0 L 530.0,655.0",
+      "Distance": 104.65658125507444,
+      "EndVerticeId": 52,
+      "Id": 116,
+      "IsEnabled": true,
+      "Name": "Path_116",
+      "StartVerticeId": 36
+    },
+    {
+      "Data": "M 461.0,436.0 L 437.0,480.0",
+      "Distance": 50.11985634456667,
+      "EndVerticeId": 14,
+      "Id": 117,
+      "IsEnabled": true,
+      "Name": "Path_117",
+      "StartVerticeId": 15
+    },
+    {
+      "Data": "M 494.0,378.0 L 461.0,436.0",
+      "Distance": 66.73080248281148,
+      "EndVerticeId": 15,
+      "Id": 118,
+      "IsEnabled": true,
+      "Name": "Path_118",
+      "StartVerticeId": 16
+    },
+    {
+      "Data": "M 663.0,91.0 L 634.0,50.0",
+      "Distance": 50.21951811795888,
+      "EndVerticeId": 8,
+      "Id": 119,
+      "IsEnabled": true,
+      "Name": "Path_119",
+      "StartVerticeId": 9
+    },
+    {
+      "Data": "M 663.0,91.0 L 738.0,230.0",
+      "Distance": 157.94302770302968,
+      "EndVerticeId": 27,
+      "Id": 120,
+      "IsEnabled": true,
+      "Name": "Path_120",
+      "StartVerticeId": 9
+    },
+    {
+      "Data": "M 614.0,293.0 L 738.0,230.0",
+      "Distance": 139.08630414242805,
+      "EndVerticeId": 27,
+      "Id": 121,
+      "IsEnabled": true,
+      "Name": "Path_121",
+      "StartVerticeId": 28
+    },
+    {
+      "Data": "M 778.0,324.0 L 761.0,287.0",
+      "Distance": 40.718546143004666,
+      "EndVerticeId": 30,
+      "Id": 122,
+      "IsEnabled": true,
+      "Name": "Path_122",
+      "StartVerticeId": 25
+    },
+    {
+      "Data": "M 791.0,318.0 L 778.0,324.0",
+      "Distance": 14.317821063276353,
+      "EndVerticeId": 25,
+      "Id": 123,
+      "IsEnabled": true,
+      "Name": "Path_123",
+      "StartVerticeId": 72
+    },
+    {
+      "Data": "M 633.0,328.0 L 674.0,310.0",
+      "Distance": 44.77722635447622,
+      "EndVerticeId": 89,
+      "Id": 124,
+      "IsEnabled": true,
+      "Name": "Path_124",
+      "StartVerticeId": 29
+    },
+    {
+      "Data": "M 489.0,140.0 L 436.0,128.0",
+      "Distance": 54.3415126767741,
+      "EndVerticeId": 91,
+      "Id": 125,
+      "IsEnabled": true,
+      "Name": "Path_125",
+      "StartVerticeId": 3
+    },
+    {
+      "Data": "M 431.0,158.0 L 436.0,128.0",
+      "Distance": 30.4138126514911,
+      "EndVerticeId": 91,
+      "Id": 126,
+      "IsEnabled": true,
+      "Name": "Path_126",
+      "StartVerticeId": 1
+    },
+    {
+      "Data": "M 433.0,23.0 L 421.5,55.5",
+      "Distance": 34.4746283518764,
+      "EndVerticeId": 69,
+      "Id": 127,
+      "IsEnabled": true,
+      "Name": "Path_127",
+      "StartVerticeId": 6
+    },
+    {
+      "Data": "M 567.0,501.0 L 628.0,460.0",
+      "Distance": 73.49829930005184,
+      "EndVerticeId": 73,
+      "Id": 128,
+      "IsEnabled": true,
+      "Name": "Path_128",
+      "StartVerticeId": 31
+    },
+    {
+      "Data": "M 481.0,577.0 L 547.0,540.0",
+      "Distance": 75.66372975210778,
+      "EndVerticeId": 76,
+      "Id": 129,
+      "IsEnabled": true,
+      "Name": "Path_129",
+      "StartVerticeId": 59
+    },
+    {
+      "Data": "M 514.0,628.0 L 530.0,619.0",
+      "Distance": 18.35755975068582,
+      "EndVerticeId": 87,
+      "Id": 130,
+      "IsEnabled": true,
+      "Name": "Path_130",
+      "StartVerticeId": 51
+    },
+    {
+      "Data": "M 685.0,583.0 L 623.0,607.0",
+      "Distance": 66.48308055437865,
+      "EndVerticeId": 36,
+      "Id": 131,
+      "IsEnabled": true,
+      "Name": "Path_131",
+      "StartVerticeId": 74
+    },
+    {
+      "Data": "M 255.0,669.0 L 232.0,679.0",
+      "Distance": 25.079872407968907,
+      "EndVerticeId": 85,
+      "Id": 132,
+      "IsEnabled": true,
+      "Name": "Path_132",
+      "StartVerticeId": 39
+    },
+    {
+      "Data": "M 281.0,581.0 L 248.0,577.0",
+      "Distance": 33.24154027718932,
+      "EndVerticeId": 78,
+      "Id": 133,
+      "IsEnabled": true,
+      "Name": "Path_133",
+      "StartVerticeId": 62
+    },
+    {
+      "Data": "M 299.0,521.0 L 393.0,545.0",
+      "Distance": 97.01546268507923,
+      "EndVerticeId": 77,
+      "Id": 134,
+      "IsEnabled": true,
+      "Name": "Path_134",
+      "StartVerticeId": 63
+    },
+    {
+      "Data": "M 557.0,857.0 L 540.0,811.0",
+      "Distance": 49.040799340956916,
+      "EndVerticeId": 46,
+      "Id": 135,
+      "IsEnabled": true,
+      "Name": "Path_135",
+      "StartVerticeId": 86
+    },
+    {
+      "Data": "M 393.0,292.0 L 443.0,307.0",
+      "Distance": 52.20153254455275,
+      "EndVerticeId": 92,
+      "Id": 136,
+      "IsEnabled": true,
+      "Name": "Path_136",
+      "StartVerticeId": 18
+    },
+    {
+      "Data": "M 496.0,323.0 L 443.0,307.0",
+      "Distance": 55.362442142665635,
+      "EndVerticeId": 92,
+      "Id": 137,
+      "IsEnabled": true,
+      "Name": "Path_137",
+      "StartVerticeId": 17
+    },
+    {
+      "Data": "M 528.0,214.0 L 496.0,323.0",
+      "Distance": 113.6001760562016,
+      "EndVerticeId": 17,
+      "Id": 138,
+      "IsEnabled": true,
+      "Name": "Path_138",
+      "StartVerticeId": 12
+    },
+    {
+      "Data": "M 494.0,378.0 L 496.0,323.0",
+      "Distance": 55.036351623268054,
+      "EndVerticeId": 17,
+      "Id": 139,
+      "IsEnabled": true,
+      "Name": "Path_139",
+      "StartVerticeId": 16
+    }
+  ],
+  "Vertices": [
+    {
+      "Id": 0,
+      "Name": "0",
+      "X": 424.5,
+      "Y": 183.5
+    },
+    {
+      "Id": 1,
+      "Name": "0",
+      "X": 431.0,
+      "Y": 158.0
+    },
+    {
+      "Id": 2,
+      "Name": "0",
+      "X": 465.0,
+      "Y": 192.0
+    },
+    {
+      "Id": 3,
+      "Name": "0",
+      "X": 489.0,
+      "Y": 140.0
+    },
+    {
+      "Id": 4,
+      "Name": "0",
+      "X": 499.0,
+      "Y": 107.0
+    },
+    {
+      "Id": 5,
+      "Name": "0",
+      "X": 532.0,
+      "Y": 55.0
+    },
+    {
+      "Id": 6,
+      "Name": "0",
+      "X": 433.0,
+      "Y": 23.0
+    },
+    {
+      "Id": 7,
+      "Name": "0",
+      "X": 556.0,
+      "Y": 92.0
+    },
+    {
+      "Id": 8,
+      "Name": "0",
+      "X": 634.0,
+      "Y": 50.0
+    },
+    {
+      "Id": 9,
+      "Name": "0",
+      "X": 663.0,
+      "Y": 91.0
+    },
+    {
+      "Id": 10,
+      "Name": "0",
+      "X": 545.0,
+      "Y": 155.0
+    },
+    {
+      "Id": 11,
+      "Name": "0",
+      "X": 560.0,
+      "Y": 122.0
+    },
+    {
+      "Id": 12,
+      "Name": "0",
+      "X": 528.0,
+      "Y": 214.0
+    },
+    {
+      "Id": 13,
+      "Name": "0",
+      "X": 577.0,
+      "Y": 232.0
+    },
+    {
+      "Id": 14,
+      "Name": "0",
+      "X": 437.0,
+      "Y": 480.0
+    },
+    {
+      "Id": 15,
+      "Name": "0",
+      "X": 461.0,
+      "Y": 436.0
+    },
+    {
+      "Id": 16,
+      "Name": "0",
+      "X": 494.0,
+      "Y": 378.0
+    },
+    {
+      "Id": 17,
+      "Name": "0",
+      "X": 496.0,
+      "Y": 323.0
+    },
+    {
+      "Id": 18,
+      "Name": "0",
+      "X": 393.0,
+      "Y": 292.0
+    },
+    {
+      "Id": 19,
+      "Name": "0",
+      "X": 442.0,
+      "Y": 514.0
+    },
+    {
+      "Id": 20,
+      "Name": "0",
+      "X": 470.0,
+      "Y": 499.0
+    },
+    {
+      "Id": 21,
+      "Name": "0",
+      "X": 545.0,
+      "Y": 459.0
+    },
+    {
+      "Id": 22,
+      "Name": "0",
+      "X": 664.0,
+      "Y": 388.0
+    },
+    {
+      "Id": 23,
+      "Name": "0",
+      "X": 708.0,
+      "Y": 471.0
+    },
+    {
+      "Id": 24,
+      "Name": "0",
+      "X": 760.0,
+      "Y": 563.0
+    },
+    {
+      "Id": 25,
+      "Name": "0",
+      "X": 778.0,
+      "Y": 324.0
+    },
+    {
+      "Id": 26,
+      "Name": "0",
+      "X": 591.0,
+      "Y": 252.0
+    },
+    {
+      "Id": 27,
+      "Name": "0",
+      "X": 738.0,
+      "Y": 230.0
+    },
+    {
+      "Id": 28,
+      "Name": "0",
+      "X": 614.0,
+      "Y": 293.0
+    },
+    {
+      "Id": 29,
+      "Name": "0",
+      "X": 633.0,
+      "Y": 328.0
+    },
+    {
+      "Id": 30,
+      "Name": "0",
+      "X": 761.0,
+      "Y": 287.0
+    },
+    {
+      "Id": 31,
+      "Name": "0",
+      "X": 567.0,
+      "Y": 501.0
+    },
+    {
+      "Id": 32,
+      "Name": "0",
+      "X": 587.0,
+      "Y": 537.0
+    },
+    {
+      "Id": 33,
+      "Name": "0",
+      "X": 676.0,
+      "Y": 701.0
+    },
+    {
+      "Id": 34,
+      "Name": "0",
+      "X": 593.0,
+      "Y": 550.0
+    },
+    {
+      "Id": 35,
+      "Name": "0",
+      "X": 651.0,
+      "Y": 658.0
+    },
+    {
+      "Id": 36,
+      "Name": "0",
+      "X": 623.0,
+      "Y": 607.0
+    },
+    {
+      "Id": 37,
+      "Name": "0",
+      "X": 321.0,
+      "Y": 440.0
+    },
+    {
+      "Id": 38,
+      "Name": "0",
+      "X": 293.0,
+      "Y": 539.0
+    },
+    {
+      "Id": 39,
+      "Name": "0",
+      "X": 255.0,
+      "Y": 669.0
+    },
+    {
+      "Id": 40,
+      "Name": "0",
+      "X": 268.0,
+      "Y": 703.0
+    },
+    {
+      "Id": 41,
+      "Name": "0",
+      "X": 294.0,
+      "Y": 753.0
+    },
+    {
+      "Id": 42,
+      "Name": "0",
+      "X": 326.0,
+      "Y": 806.0
+    },
+    {
+      "Id": 43,
+      "Name": "0",
+      "X": 428.0,
+      "Y": 743.0
+    },
+    {
+      "Id": 44,
+      "Name": "0",
+      "X": 482.0,
+      "Y": 811.0
+    },
+    {
+      "Id": 45,
+      "Name": "0",
+      "X": 529.0,
+      "Y": 781.0
+    },
+    {
+      "Id": 46,
+      "Name": "0",
+      "X": 540.0,
+      "Y": 811.0
+    },
+    {
+      "Id": 47,
+      "Name": "0",
+      "X": 499.0,
+      "Y": 733.0
+    },
+    {
+      "Id": 48,
+      "Name": "0",
+      "X": 551.0,
+      "Y": 708.0
+    },
+    {
+      "Id": 49,
+      "Name": "0",
+      "X": 565.0,
+      "Y": 761.0
+    },
+    {
+      "Id": 50,
+      "Name": "0",
+      "X": 456.0,
+      "Y": 662.0
+    },
+    {
+      "Id": 51,
+      "Name": "0",
+      "X": 514.0,
+      "Y": 628.0
+    },
+    {
+      "Id": 52,
+      "Name": "0",
+      "X": 530.0,
+      "Y": 655.0
+    },
+    {
+      "Id": 53,
+      "Name": "0",
+      "X": 597.0,
+      "Y": 744.0
+    },
+    {
+      "Id": 54,
+      "Name": "0",
+      "X": 370.0,
+      "Y": 646.0
+    },
+    {
+      "Id": 55,
+      "Name": "0",
+      "X": 396.0,
+      "Y": 697.0
+    },
+    {
+      "Id": 56,
+      "Name": "0",
+      "X": 359.0,
+      "Y": 608.0
+    },
+    {
+      "Id": 57,
+      "Name": "0",
+      "X": 415.0,
+      "Y": 619.0
+    },
+    {
+      "Id": 58,
+      "Name": "0",
+      "X": 426.0,
+      "Y": 613.0
+    },
+    {
+      "Id": 59,
+      "Name": "0",
+      "X": 481.0,
+      "Y": 577.0
+    },
+    {
+      "Id": 60,
+      "Name": "0",
+      "X": 499.0,
+      "Y": 599.0
+    },
+    {
+      "Id": 61,
+      "Name": "0",
+      "X": 465.0,
+      "Y": 559.0
+    },
+    {
+      "Id": 62,
+      "Name": "0",
+      "X": 281.0,
+      "Y": 581.0
+    },
+    {
+      "Id": 63,
+      "Name": "0",
+      "X": 299.0,
+      "Y": 521.0
+    },
+    {
+      "Id": 64,
+      "Name": "0",
+      "X": 271.0,
+      "Y": 515.0
+    },
+    {
+      "Id": 65,
+      "Name": "0",
+      "X": 348.0,
+      "Y": 353.0
+    },
+    {
+      "Id": 66,
+      "Name": "0",
+      "X": 364.0,
+      "Y": 303.0
+    },
+    {
+      "Id": 67,
+      "Name": "0",
+      "X": 376.0,
+      "Y": 262.0
+    },
+    {
+      "Id": 68,
+      "Name": "0",
+      "X": 387.0,
+      "Y": 221.0
+    }
+  ]
+}
