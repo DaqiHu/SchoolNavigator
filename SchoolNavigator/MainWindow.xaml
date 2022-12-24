@@ -370,7 +370,7 @@
                                 Content="计算路径"
                                 Click="CalculateRoute_OnClick"
                                 Margin="10"
-                                FontSize="18" Cursor="Help" />
+                                FontSize="18" />
 
                         <!-- 清除信息（默认不可用） -->
                         <Button x:Name="EraseInfoButton"

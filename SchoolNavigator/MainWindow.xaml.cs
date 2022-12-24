@@ -49,7 +49,7 @@ namespace SchoolNavigator
         public MainWindow()
         {
             // 初始化数据
-            _graph = JsonConvert.DeserializeObject<Graph>(File.ReadAllText(@"./data/graph.json"));
+            _graph = JsonConvert.DeserializeObject<Graph>(File.ReadAllText(@".\data\graph.json"));
             _graph.InitializePathWeights();
 
             // 初始化界面
@@ -136,7 +136,25 @@ namespace SchoolNavigator
                 if (path.Name == name) id = path.Id;
             }
 
-            _routePaths[id].Stroke = new SolidColorBrush(Colors.IndianRed);
+            if (_graph.Paths[id].IsEnabled)
+            {
+                _routePaths[id].Stroke = new SolidColorBrush(Colors.DarkRed);
+                var path = _graph.Paths[id];
+                path.IsEnabled = false;
+                _graph.PathWeights[path.StartVerticeId][path.EndVerticeId] = 0;
+                _graph.PathWeights[path.EndVerticeId][path.StartVerticeId] = 0;
+                Debug.WriteLine($"path[{id}] is disabled.");
+            }
+            else
+            {
+                _routePaths[id].Stroke = new SolidColorBrush(Colors.MediumSeaGreen);
+                var path = _graph.Paths[id];
+                path.IsEnabled = true;
+                _graph.PathWeights[path.StartVerticeId][path.EndVerticeId] = path.Distance;
+                _graph.PathWeights[path.EndVerticeId][path.StartVerticeId] = path.Distance;
+                Debug.WriteLine($"path[{id}] is enabled.");
+            }
+
         }
 
         /// <summary>
@@ -393,6 +411,13 @@ namespace SchoolNavigator
             // 使用 Dijkstra 算法，得到 startIndex 到各点的距离和前驱节点信息。
             var (distances, prePoints) = _graph.Dijkstra(startIndex);
 
+            if (distances[endIndex] == double.MaxValue)
+            {
+                MessageBox.Show("找不到最短路径！没有可用的路线。");
+                RouteDistanceText.Text = "???m";
+                return;
+            }
+
             // 存储所有路径点的列表
             List<int> all = new List<int> { endIndex };
 
@@ -429,8 +454,6 @@ namespace SchoolNavigator
             var result = $"{distances[endIndex] * 5 / 6:F1}m";
             RouteDistanceText.Text = result;
             Debug.WriteLine(result);
-
-            
         }
 
         private void RouteDistanceTextHandler(double distance)
@@ -444,8 +467,8 @@ namespace SchoolNavigator
         /// <param name="e"></param>
         private void MainWindow_OnClosing(object? sender, CancelEventArgs e)
         {
-            var jsonString = JsonConvert.SerializeObject(_graph);
-            File.WriteAllText(@"./data/graph.json", jsonString);
+            var jsonString = JsonConvert.SerializeObject(_graph, Formatting.Indented);
+            File.WriteAllText(@".\data\graph.json", jsonString);
         }
 
         /// <summary>
@@ -464,19 +487,19 @@ namespace SchoolNavigator
             Title.Text = enable ? "管理员模式" : "紫金学院校园导航系统";
             TitleBar.Mode = enable ? ColorZoneMode.SecondaryDark : ColorZoneMode.PrimaryDark;
 
+            var disabledPaths = new HashSet<int>();
+            foreach (var path in _graph.Paths)
+            {
+                if (path.IsEnabled == false)
+                    disabledPaths.Add(path.Id);
+            }
+
             if (enable)
             {
-                List<int> list = new List<int>();
-                foreach (var path in _graph.Paths)
-                {
-                    if (path.IsEnabled == false)
-                        list.Add(path.Id);
-                }
-
                 for (var i = 0; i < _routePaths.Length; i++)
                 {
                     _routePaths[i].Visibility = Visibility.Visible;
-                    if (list.Contains(i))
+                    if (disabledPaths.Contains(i))
                         _routePaths[i].Stroke = new SolidColorBrush(Colors.DarkRed);
                     else
                         _routePaths[i].Stroke = new SolidColorBrush(Colors.LightSeaGreen);
@@ -491,6 +514,7 @@ namespace SchoolNavigator
             {
                 foreach (var path in _routePaths)
                 {
+                    path.Stroke = new SolidColorBrush(Colors.OrangeRed);
                     path.Visibility = Visibility.Hidden;
                 }
 
