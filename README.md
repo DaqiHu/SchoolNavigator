@@ -617,9 +617,9 @@ public class Graph
 
 记录目前遇到的所有bug和feature改进：
 
-1. 点击清除信息后，路线的长度不会清除；
-2. 鼠标悬停在按钮上时，显示文本错误（显示了Material Design的默认提示文本）；
-3. 将MessageBox换成MaterialDesign 风格的 Dialog
-4. 管理员模式下，点击禁用（红色）的路线换回的颜色错误，为浅绿色（应为蓝绿色）
-5. 将下拉菜单改为 AutoSuggestBox（可选）
-6. 添加“路线”下的具体路线显示
+- [ ] 点击清除信息后，路线的长度不会清除；
+- [x] 鼠标悬停在按钮上时，显示文本错误（显示了Material Design的默认提示文本）；
+- [ ] 将MessageBox换成MaterialDesign 风格的 Dialog
+- [ ] 管理员模式下，点击禁用（红色）的路线换回的颜色错误，为浅绿色（应为蓝绿色）
+- [ ] 将下拉菜单改为 AutoSuggestBox（可选）
+- [ ] 添加“路线”下的具体路线显示

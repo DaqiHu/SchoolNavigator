@@ -365,7 +365,7 @@
                         <!-- 计算路径 -->
                         <Button x:Name="CalculateRouteButton"
                                 Style="{StaticResource MaterialDesignPaperButton}"
-                                ToolTip="Resource name: MaterialDesignPaperButton"
+                                ToolTip="点击按钮计算两点之间最短距离"
                                 Width="120"
                                 Content="计算路径"
                                 Click="CalculateRoute_OnClick"
@@ -375,7 +375,7 @@
                         <!-- 清除信息（默认不可用） -->
                         <Button x:Name="EraseInfoButton"
                                 Style="{StaticResource MaterialDesignPaperButton}"
-                                ToolTip="Resource name: MaterialDesignPaperButton"
+                                ToolTip="点击清除地图和景点选择"
                                 Width="120"
                                 Content="清除信息"
                                 Click="EraseInfo_OnClick"
