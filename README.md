@@ -69,6 +69,7 @@
 ### 1. 安装 C# 环境依赖
 
 > [!warning] 注意
+> 
 > 以下操作基于您已安装 `.NET Core SDK 6.0` ，以及在 Visual Studio 2022 中安装了 C# 相关的工作负载。
 > 
 > - 如需安装 .NET Core SDK 6.0，请前往[微软官方下载](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0);
@@ -82,6 +83,7 @@
 ### 2. 安装 Python 环境依赖
 
 > [!warning] 注意
+> 
 > 以下操作基于您已安装 `Python 3.6` 及以上的任意 Python 环境。
 > 
 > - 如需安装 Python，请前往官方网站下载，推荐安装最新版本的 Python。
@@ -100,6 +102,7 @@ py -m venv venv
 ```
 
 > [!important]- 本教程以 Windows 10/11 系统为例
+> 
 > 此处激活指令会随着您使用的**操作系统**或**控制台**类型而变化。如有安装失败的情况，请在确保您已正确安装 Python 的前提下，使用搜索引擎查找解决方案。
 
 随后激活 Python 虚拟环境 venv：
@@ -287,18 +290,18 @@ py JsonDataScripts.py
 ```xml
 <!-- 景点 -->
 <g id="Location">
-	<circle id="_宿舍楼3幢" data-name="宿舍楼3幢" class="cls-1" cx="421.5" cy="55.5" r="8"/>
+    <circle id="_宿舍楼3幢" data-name="宿舍楼3幢" class="cls-1" cx="421.5" cy="55.5" r="8"/>
 </g>
 
 <!-- 节点 -->
 <g id="Vertice">
-	<circle id="_0-6" data-name="0" class="cls-3" cx="532" cy="55" r="3"/>
+    <circle id="_0-6" data-name="0" class="cls-3" cx="532" cy="55" r="3"/>
 </g>
 
 <!-- 路径 -->
 <g id="Path">
-	<polyline class="cls-2" points="545 459 637.5 408.5 664 388"/>
-	<line class="cls-2" x1="708" y1="471" x2="664" y2="388"/>
+    <polyline class="cls-2" points="545 459 637.5 408.5 664 388"/>
+    <line class="cls-2" x1="708" y1="471" x2="664" y2="388"/>
 </g>
 ```
 
@@ -421,8 +424,8 @@ for i in outputLocations:
 
 ```python
 locationInfo = {
-	"大操场": "...",
-	"二食堂": "...",  # 仅举例，具体可以在源代码中查看
+    "大操场": "...",
+    "二食堂": "...",  # 仅举例，具体可以在源代码中查看
 }
 ```
 
@@ -447,20 +450,20 @@ else:
 ```cs
 public partial class MainWindow : Window 
 {
-	private Graph? _graph;
-	// ...
-	
-	public MainWindow() 
-	{
-		// 从文件读取数据
-		var jsonString = File.ReadAllText(@"./data/graph.json");
-		
-		// 转化为对象
-		_graph = JsonConvert.DeserializeObject<Graph>(jsonString);
-		
-		// 初始化 Dijkstra 矩阵
-		_graph.InitializePathWeights();
-	}
+    private Graph? _graph;
+    // ...
+        
+    public MainWindow() 
+    {
+        // 从文件读取数据
+        var jsonString = File.ReadAllText(@"./data/graph.json");
+
+        // 转化为对象
+        _graph = JsonConvert.DeserializeObject<Graph>(jsonString);
+
+        // 初始化 Dijkstra 矩阵
+        _graph.InitializePathWeights();
+    }
 }
 ```
 
@@ -499,7 +502,7 @@ public Tuple<double[], int[]> Dijkstra(int startIndex);
 ```cs
 public class Graph
 {
-	public double[][] PathWeights;
+    public double[][] PathWeights;
 }
 ```
 
