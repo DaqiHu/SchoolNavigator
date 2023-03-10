@@ -20,21 +20,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="data\graph.json" />
-    <None Remove="images\SchoolMap.jpg" />
-    <None Remove="images\Zijin_Logo_Blank.png" />
-    <None Remove="images\Zijin_Logo_White.png" />
+    <None Remove="Data\graph.json" />
+    <None Remove="Images\SchoolMap.jpg" />
+    <None Remove="Images\Zijin_Logo_Blank.png" />
+    <None Remove="Images\Zijin_Logo_White.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="data\graph.json">
+    <Content Include="Data\graph.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="icon.ico" />
-    <Content Include="images\SchoolMap.jpg">
+    <Content Include="Images\SchoolMap.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\Zijin_Logo_White.png">
+    <Content Include="Images\Zijin_Logo_White.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="images\Zijin_Logo_Blank.png">
+    <Content Include="Images\Zijin_Logo_Blank.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -1,32 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Diagnostics.Eventing.Reader;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Automation.Peers;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Xml.Linq;
 using MaterialDesignThemes.Wpf;
 using Newtonsoft.Json;
 using SchoolNavigator.Models;
-using Edge = SchoolNavigator.Models.Path;
 using Path = System.Windows.Shapes.Path;
 
-namespace SchoolNavigator;
+namespace SchoolNavigator.Views;
 
 /// <summary>
 /// MainWindow 页面
@@ -49,7 +36,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         // 初始化数据
-        _graph = JsonConvert.DeserializeObject<Graph>(File.ReadAllText(@".\data\graph.json"));
+        _graph = JsonConvert.DeserializeObject<Graph>(File.ReadAllText("./Data/graph.json"));
         _graph.InitializePathWeights();
 
         // 初始化界面
@@ -70,6 +57,9 @@ public partial class MainWindow : Window
         //     Name = "hello" + 1,
         //     Description = "world!"
         // });
+        Debug.WriteLine($"Vertex count: {_graph.Vertices.Length}");
+        Debug.WriteLine($"Location count: {_graph.Locations.Length}");
+        Debug.WriteLine($"Path count: {_graph.Paths.Length}");
     }
 
     /// <summary>

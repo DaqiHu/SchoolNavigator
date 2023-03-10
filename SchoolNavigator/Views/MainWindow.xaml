@@ -1,9 +1,9 @@
-﻿<Window x:Class="SchoolNavigator.MainWindow"
+﻿<Window x:Class="SchoolNavigator.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SchoolNavigator"
+        xmlns:local="clr-namespace:SchoolNavigator.Views"
         mc:Ignorable="d"
         Title="紫金学院校园导航"
         Height="930"
@@ -219,7 +219,7 @@
                     Width="1200"
                     Height="900">
                 <Canvas.Background>
-                    <ImageBrush ImageSource="/images/SchoolMap.jpg" />
+                    <ImageBrush ImageSource="/Images/SchoolMap.jpg" />
                 </Canvas.Background>
 
                 <!-- Canvas 中的各个元素在 MainWindow.xaml.cs 中通过C#代码生成 -->
@@ -232,7 +232,7 @@
 
             <!-- 背景：不透明度为2%的紫金logo -->
             <StackPanel.Background>
-                <ImageBrush ImageSource="images/Zijin_Logo_Blank.png" />
+                <ImageBrush ImageSource="/Images/Zijin_Logo_Blank.png" />
             </StackPanel.Background>
 
             <!-- 标题栏 -->
@@ -241,7 +241,7 @@
                                       Padding="16"
                                       Height="90">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="images/Zijin_Logo_White.png"
+                    <Image Source="/images/Zijin_Logo_White.png"
                            MouseRightButtonDown="EnterAdminMode_OnMouseRightButtonDown" />
                     <TextBlock x:Name="Title"
                                VerticalAlignment="Center"
